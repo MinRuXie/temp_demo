@@ -1,0 +1,611 @@
+[
+    {
+        "id": "furniture",
+        "category": "Furniture",
+        "products": [
+            {
+                "brand": "The Bianco Collection",
+                "sku": "TBC-4060-PT1914-WHT",
+                "product_name": "Faura 18\" x 43.5\" Rectangular Italian Carrara White Marble Table with Oak Legs",
+                "color": "Oak",
+                "dimensions": "15\"H x 18\"W x 43.5\"L",
+                "map": "$280.00",
+                "background_css_style": "light-gray",
+                "image_path": "catalog/product/furniture/the-bianco-collection/",
+                "thumbnail": "TBC-4060-PT1914-WHT-main.png",
+                "thumbnail_shape": "h-rectangle",
+                "lifestyles": [
+                    "TBC-4060-PT1914-WHT-lifestyle-01.jpg",
+                    "TBC-4060-PT1914-WHT-lifestyle-02.jpg",
+                    "TBC-4060-PT1914-WHT-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "Homestead",
+                "sku": "SP-2126-ABK",
+                "product_name": "Dion Butler Table in Acacia & Black",
+                "color": "Acacia Tray and Black Legs",
+                "dimensions": "24.8\"H x 18.8\"W x15\"H",
+                "map": "$68",
+                "background_css_style": "dark-orange",
+                "image_path": "catalog/product/furniture/homestead/",
+                "thumbnail": "SP-2126-ABK-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "SP-2126-ABK-lifestyle-01.jpg",
+                    "SP-2126-ABK-lifestyle-02.jpg",
+                    "SP-2126-ABK-lifestyle-03.jpg",
+                    "SP-2126-ABK-lifestyle-04.jpg"
+                ]
+            },{
+                "brand": "Gingko",
+                "sku": "ADM380-WM-AZ",
+                "product_name": "Adam Accent Arm Chair - Blue",
+                "color": "Blue",
+                "dimensions": "31\"H x 24\"W x 32\"L",
+                "map": "$649",
+                "background_css_style": "dark-yellow",
+                "image_path": "catalog/product/furniture/gingko/",
+                "thumbnail": "ADM380-WM-AZ-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "ADM380-WM-AZ-lifestyle-01.jpg"
+                ]
+            },{
+                "brand": "Gingko",
+                "sku": "ODT501-BRWN",
+                "product_name": "Odette Dining Chair, Chestnut Brown",
+                "color": "Brown",
+                "dimensions": "31.5\"H x 20\"W x 23\"L",
+                "map": "$372.99",
+                "background_css_style": "dark-yellow",
+                "image_path": "catalog/product/furniture/gingko/",
+                "thumbnail": "ODT501-BRWN-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "ODT501-BRWN-lifestyle-01.jpg",
+                    "ODT501-BRWN-lifestyle-02.jpg",
+                    "ODT501-BRWN-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "The Bianco Collection",
+                "sku": "TBC-4103-PT1930-WHT",
+                "product_name": "Viola 44\" Rectangular Italian Carrara White Marble Writing Desk with Oak Leg",
+                "color": "Oak",
+                "dimensions": "30\"H x 18\"W x 44\"L",
+                "map": "$456.00",
+                "background_css_style": "light-orange",
+                "image_path": "catalog/product/furniture/the-bianco-collection/",
+                "thumbnail": "TBC-4103-PT1930-WHT-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "TBC-4103-PT1930-WHT-lifestyle-01.jpg",
+                    "TBC-4103-PT1930-WHT-lifestyle-02.jpg",
+                    "TBC-4103-PT1930-WHT-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "AndMakers",
+                "sku": "TW-BF04-FA-RN",
+                "product_name": "Oslo Small Sideboard",
+                "color": "Brown",
+                "dimensions": "27\"H x 36\"W x 16\"L",
+                "map": "$379.00",
+                "background_css_style": "light-yellow",
+                "image_path": "catalog/product/furniture/andmakers/",
+                "thumbnail": "TW-BF04-FA-RN-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "TW-BF04-FA-RN-lifestyle-01.jpg"
+                ]
+            },{
+                "brand": "Monster Furniture",
+                "sku": "QR-013W06-LD5T",
+                "product_name": "Allday 24\"L x 14\"W Metal Frame Bookshelf",
+                "color": "Acacia",
+                "dimensions": "63\"H x 14\"W x 24\"L",
+                "map": "$127.00",
+                "background_css_style": "light-gray",
+                "image_path": "catalog/product/furniture/monster-furniture/",
+                "thumbnail": "QR-013W06-LD5T-main.png",
+                "thumbnail_shape": "v-rectangle",
+                "lifestyles": [
+                    "QR-013W06-LD5T-lifestyle-01.jpg",
+                    "QR-013W06-LD5T-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "AndMakers",
+                "sku": "TW-T15-KD-RN",
+                "product_name": "Oslo Small Dining Table",
+                "color": "Brown",
+                "dimensions": "35.4\"H x 29.9\"W x 44\"L",
+                "map": "$347.00",
+                "background_css_style": "dark-purple",
+                "image_path": "catalog/product/furniture/andmakers/",
+                "thumbnail": "TW-T15-KD-RN-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "TW-T15-KD-RN-lifestyle-01.jpg",
+                    "TW-T15-KD-RN-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "Monster Furniture",
+                "sku": "BA-018-SE",
+                "product_name": "Bake Floor Recliner Sofa and Stool Set",
+                "color": "Beige",
+                "dimensions": "Full set",
+                "map": "$284.99",
+                "background_css_style": "light-green",
+                "image_path": "catalog/product/furniture/monster-furniture/",
+                "thumbnail": "BA-018-SE-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "BA-018-SE-lifestyle-01.jpg",
+                    "BA-018-SE-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "Legato Designs",
+                "sku": "LD-DIN79LLL",
+                "product_name": "Camellia 42 in. Round Oak Finish Wooden Dining Table (Seats 2)",
+                "color": "Oak",
+                "dimensions": "30.5\"H x 42\"W x 42\"L",
+                "map": "$667.99",
+                "background_css_style": "dark-green",
+                "image_path": "catalog/product/furniture/legato-designs/",
+                "thumbnail": "LD-DIN79LLL-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "LD-DIN79LLL-lifestyle-01.jpg"
+                ]
+            }
+        ]
+    },{
+        "id": "home-decor",
+        "category": "Home Decor",
+        "products": [
+            {
+                "brand": "Capital Tile",
+                "sku": "CT-20LD00MAA / CT-PR00CNA / CT-SN00ALA / CT-SN00TRA",
+                "product_name": "Mayfair / Charonne Nero / Albori / Tramonti 8\" x 8\" Porcelain Patterned Wall & Floor Tile",
+                "color": "N/A",
+                "dimensions": "8\"W x 8\"L",
+                "map": "$99.99",
+                "background_css_style": "light-gray",
+                "image_path": "catalog/product/home-decor/capital-tile/",
+                "thumbnail": "CT-series-main.png",
+                "thumbnail_shape": "h-rectangle",
+                "lifestyles": [
+                    "CT-series-lifestyle-01.jpg",
+                    "CT-series-lifestyle-02.jpg",
+                    "CT-series-lifestyle-03.jpg",
+                    "CT-series-lifestyle-04.jpg"
+                ]
+            },{
+                "brand": "Zleby",
+                "sku": "MYL077S",
+                "product_name": "Isolde table lamp with white fabric shade",
+                "color": "Clear",
+                "dimensions": "18.8\"H x 9.3\"W x 9.3\"L",
+                "map": "$45",
+                "background_css_style": "dark-green",
+                "image_path": "catalog/product/home-decor/zleby/",
+                "thumbnail": "MYL077S-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "MYL077S-lifestyle-01.jpg",
+                    "MYL077S-lifestyle-02.jpg",
+                    "MYL077S-lifestyle-03.jpg",
+                    "MYL077S-lifestyle-04.jpg"
+                ]
+            },{
+                "brand": "Infinite Decor",
+                "sku": "INFD-100",
+                "product_name": "3-Tier Ceramic and Rope Hanging Planter",
+                "color": "White",
+                "dimensions": "5.8\"H x 14\"W x 33\"L",
+                "map": "$29.99",
+                "background_css_style": "light-gray",
+                "image_path": "catalog/product/home-decor/infinite-decor/",
+                "thumbnail": "INFD-100-main.png",
+                "thumbnail_shape": "v-rectangle",
+                "lifestyles": [
+                    "INFD-100-lifestyle-01.jpg",
+                    "INFD-100-lifestyle-02.jpg",
+                    "INFD-100-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "Canyon Home",
+                "sku": "CY-961110",
+                "product_name": "Baden Rustic Wagon Wheel Light Fixture with 8 Bulb and White Fabric Shades",
+                "color": "Black",
+                "dimensions": "20.4\"H x 31.5\"W x 31.5\"L",
+                "map": "$387.98",
+                "background_css_style": "dark-yellow",
+                "image_path": "catalog/product/home-decor/canyon-home/",
+                "thumbnail": "CY-961110-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "CY-961110-lifestyle-01.jpg",
+                    "CY-961110-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "The Bianco Collection",
+                "sku": "TBC-3024-PT1001-WHT",
+                "product_name": "Keith 4\"x4\" Square Italian Carrara White Marble Picture Frame",
+                "color": "White",
+                "dimensions": "0.8\"H x 6.7\"W x 6.7\"L",
+                "map": "$30.00",
+                "background_css_style": "dark-orange",
+                "image_path": "catalog/product/home-decor/the-bianco-collection/",
+                "thumbnail": "TBC-3024-PT1001-WHT-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "TBC-3024-PT1001-WHT-lifestyle-01.jpg",
+                    "TBC-3024-PT1001-WHT-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "Canyon Home",
+                "sku": "CY-8009-970501",
+                "product_name": "Lyell Dragonfly Sputnik Light Fixture, 4 Bulb Design",
+                "color": "Black",
+                "dimensions": "27.7\"H x 31.5\"W x 31.5\"L",
+                "map": "$363.98",
+                "background_css_style": "light-orange",
+                "image_path": "catalog/product/home-decor/canyon-home/",
+                "thumbnail": "CY-8009-970501-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "CY-8009-970501-lifestyle-01.jpg",
+                    "CY-8009-970501-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "Camden Isle",
+                "sku": "86314",
+                "product_name": "Webster Modern Mirror",
+                "color": "N/A",
+                "dimensions": "23.9\"H x 20.4\"W x 1.0\"L",
+                "map": "$179.50",
+                "background_css_style": "dark-purple",
+                "image_path": "catalog/product/home-decor/camden-isle/",
+                "thumbnail": "86314-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "86314-lifestyle-01.jpg",
+                    "86314-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "Camden Isle",
+                "sku": "86322",
+                "product_name": "Golden Sun Mirror",
+                "color": "N/A",
+                "dimensions": "38.6\"H x 38.6\"W x 1.7\"L",
+                "map": "$339.50",
+                "background_css_style": "light-yellow",
+                "image_path": "catalog/product/home-decor/camden-isle/",
+                "thumbnail": "86322-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "86322-lifestyle-01.jpg",
+                    "86322-lifestyle-02.jpg",
+                    "86322-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "Mighty Curae",
+                "sku": "MC005EDI02MUL0203",
+                "product_name": "Canna Modern Contemporary Mosaic Geometric Striped Abstract Accent Rug for Living Room Bedroom",
+                "color": "N/A",
+                "dimensions": "8\"W x 10\"L",
+                "map": "$281.98",
+                "background_css_style": "light-green",
+                "image_path": "catalog/product/home-decor/mighty-curae/",
+                "thumbnail": "MC005EDI02MUL0203-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "MC005EDI02MUL0203-lifestyle-01.jpg"
+                ]
+            },{
+                "brand": "Canyon Home",
+                "sku": "CY-18112",
+                "product_name": "Bushnell Ball Pendant Light Fixture, White Orb with Elegant Glow",
+                "color": "White",
+                "dimensions": "55\"H x 9.8\"W x 9.8\"L",
+                "map": "$98.98",
+                "background_css_style": "light-purple",
+                "image_path": "catalog/product/home-decor/canyon-home/",
+                "thumbnail": "CY-18112-main.png",
+                "thumbnail_shape": "v-rectangle",
+                "lifestyles": [
+                    "CY-18112-lifestyle-01.jpg",
+                    "CY-18112-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "Via Daci",
+                "sku": "VD-IADA1000",
+                "product_name": "18 in. x 28.5 in. x 7.25 in. Matte Black Pine Wood 3-Tiered Decorative Wall Shelf",
+                "color": "Matte Black",
+                "dimensions": "28.5\"H x 7.25\"W x 18\"L",
+                "map": "$102.99",
+                "background_css_style": "dark-green",
+                "image_path": "catalog/product/home-decor/via-daci/",
+                "thumbnail": "VD-IADA1000-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "VD-IADA1000-lifestyle-01.jpg",
+                    "VD-IADA1000-lifestyle-02.jpg",
+                    "VD-IADA1000-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "Lcaoful",
+                "sku": "SL10081F",
+                "product_name": "52 Inch Smart Ceiling Fan with Light Work with Alexa and Google Assistant",
+                "color": "Dark brown",
+                "dimensions": "16.5\"H x 52\"W x 52\"L",
+                "map": "$215.00",
+                "background_css_style": "light-orange",
+                "image_path": "catalog/product/home-decor/lcaoful/",
+                "thumbnail": "SL10081F-main.png",
+                "thumbnail_shape": "h-rectangle",
+                "lifestyles": [
+                    "SL10081F-lifestyle-01.jpg",
+                    "SL10081F-lifestyle-02.jpg",
+                    "SL10081F-lifestyle-03.jpg"
+                ]
+            }
+        ]
+    },{
+        "id": "outdoor",
+        "category": "Outdoor",
+        "products": [
+            {
+                "brand": "Gyber",
+                "sku": "GYB-9074-BF06",
+                "product_name": "Dutton Gas Infrared Grill (Propane) Single, Vertical Cooking and Outdoor Grilling",
+                "color": "Silver",
+                "dimensions": "16.5\"H x 13.5\"W x 21.5\"L",
+                "map": "$319.00",
+                "background_css_style": "dark-yellow",
+                "image_path": "catalog/product/outdoor/gyber/",
+                "thumbnail": "GYB-9074-BF06-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "GYB-9074-BF06-lifestyle-01.jpg",
+                    "GYB-9074-BF06-lifestyle-02.jpg",
+                    "GYB-9074-BF06-lifestyle-03.jpg",
+                    "GYB-9074-BF06-lifestyle-04.jpg",
+                    "GYB-9074-BF06-lifestyle-05.jpg"
+                ]
+            },{
+                "brand": "Casual Inc",
+                "sku": "CS-W34",
+                "product_name": "5-Piece Outdoor Patio Furniture Set Wicker Rattan Sectional Sofa & Couch with Coffee Table",
+                "color": "Brown (frame) Blue (cushion)",
+                "dimensions": "Full set",
+                "map": "$1518",
+                "background_css_style": "dark-green",
+                "image_path": "catalog/product/outdoor/casual-inc/",
+                "thumbnail": "CS-W34-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "CS-W34-lifestyle-01.jpg",
+                    "CS-W34-lifestyle-02.jpg",
+                    "CS-W34-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "Nomade",
+                "sku": "NF-NOMADPWT1",
+                "product_name": "Nature Factory Bamboo Foldable Wine Picnic Table with Glass Holder and Snack Tray",
+                "color": "Brown",
+                "dimensions": "2.2\"H x 13\"W x 16.9\"L",
+                "map": "$42.99",
+                "background_css_style": "light-yellow",
+                "image_path": "catalog/product/outdoor/nomade/",
+                "thumbnail": "NF-NOMADPWT1-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "NF-NOMADPWT1-lifestyle-01.jpg",
+                    "NF-NOMADPWT1-lifestyle-02.jpg",
+                    "NF-NOMADPWT1-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "Rain Bean",
+                "sku": "RB-X002NW5Y6J",
+                "product_name": "7.78 in. Black Aluminium Non-stick Frying Pan with Lid",
+                "color": "Black",
+                "dimensions": "9\"H x 7.75\"W x 3.5\"L",
+                "map": "$29.99",
+                "background_css_style": "dark-orange",
+                "image_path": "catalog/product/outdoor/rain-bean/",
+                "thumbnail": "RB-X002NW5Y6J-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "RB-X002NW5Y6J-lifestyle-01.jpg",
+                    "RB-X002NW5Y6J-lifestyle-02.jpg",
+                    "RB-X002NW5Y6J-lifestyle-03.jpg",
+                    "RB-X002NW5Y6J-lifestyle-04.jpg",
+                    "RB-X002NW5Y6J-lifestyle-05.jpg"
+                ]
+            },{
+                "brand": "Iwatani",
+                "sku": "IWT-RS-01",
+                "product_name": "Iwatani 12000 BTU / Hour Black Portable Butane Stove with Carrying Case",
+                "color": "Black",
+                "dimensions": "5\"H x 11.1\"W x 13.4\"L",
+                "map": "$149.99",
+                "background_css_style": "light-purple",
+                "image_path": "catalog/product/outdoor/iwatani/",
+                "thumbnail": "IWT-RS-01-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "IWT-RS-01-lifestyle-01.jpg",
+                    "IWT-RS-01-lifestyle-02.jpg",
+                    "IWT-RS-01-lifestyle-03.jpg",
+                    "IWT-RS-01-lifestyle-04.jpg",
+                    "IWT-RS-01-lifestyle-05.jpg"
+                ]
+            },{
+                "brand": "EchoSmile",
+                "sku": "TER-LTT280WG",
+                "product_name": "EchoSmile 4-6 person gray pop up tent",
+                "color": "Grey",
+                "dimensions": "47.24\"H x 110.24\"W x 78.74\"L",
+                "map": "$125.99",
+                "background_css_style": "light-green",
+                "image_path": "catalog/product/outdoor/echosmile/",
+                "thumbnail": "TER-LTT280WG-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "TER-LTT280WG-lifestyle-01.jpg",
+                    "TER-LTT280WG-lifestyle-02.jpg",
+                    "TER-LTT280WG-lifestyle-03.jpg",
+                    "TER-LTT280WG-lifestyle-04.jpg"
+                ]
+            },{
+                "brand": "MORNIRAY",
+                "sku": "MNR-231705",
+                "product_name": "26” Farmhouse Firepit in Powder Coated Steel",
+                "color": "Black",
+                "dimensions": "18.5\"H x 26\"W x 26\"L",
+                "map": "$129.00",
+                "background_css_style": "light-orange",
+                "image_path": "catalog/product/outdoor/morniray/",
+                "thumbnail": "MNR-231705-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "MNR-231705-lifestyle-01.jpg",
+                    "MNR-231705-lifestyle-02.jpg",
+                    "MNR-231705-lifestyle-03.jpg",
+                    "MNR-231705-lifestyle-04.jpg"
+                ]
+            },{
+                "brand": "July Goods",
+                "sku": "JG-GS-8009",
+                "product_name": "Glowy Sports Adjustable Height Steel Jump Rope in Silver",
+                "color": "Silver",
+                "dimensions": "0.1\"H x 0.1\"W x 118\"L",
+                "map": "$15.99",
+                "background_css_style": "dark-purple",
+                "image_path": "catalog/product/outdoor/july-goods/",
+                "thumbnail": "JG-GS-8009-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "JG-GS-8009-lifestyle-01.jpg",
+                    "JG-GS-8009-lifestyle-02.jpg",
+                    "JG-GS-8009-lifestyle-03.jpg",
+                    "JG-GS-8009-lifestyle-04.jpg",
+                    "JG-GS-8009-lifestyle-05.jpg"
+                ]
+            }
+        ]
+    },{
+        "id": "and-more",
+        "category": "And More",
+        "products": [
+            {
+                "brand": "Myzoo",
+                "sku": "MZ-BusyCat-Pine",
+                "product_name": "MyZoo BusyCat Wall Mounted Cat Bed",
+                "color": "Oak",
+                "dimensions": "17\"H x 12\"W x 20\"L",
+                "map": "$110",
+                "background_css_style": "light-gray",
+                "image_path": "catalog/product/and-more/myzoo/",
+                "thumbnail": "MZ-BusyCat-Pine-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "MZ-BusyCat-Pine-lifestyle-01.jpg",
+                    "MZ-BusyCat-Pine-lifestyle-02.jpg",
+                    "MZ-BusyCat-Pine-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "The Hensley",
+                "sku": "BFGY-P1PK",
+                "product_name": "THE HENSLEY 1/4-Inch Yoga Mat, Pink",
+                "color": "Pink",
+                "dimensions": "0.25\"H x 24\"W x 26\"L",
+                "map": "$16.99",
+                "background_css_style": "dark-green",
+                "image_path": "catalog/product/and-more/the-hensley/",
+                "thumbnail": "BFGY-P1PK-main.png",
+                "thumbnail_shape": "h-rectangle",
+                "lifestyles": [
+                    "BFGY-P1PK-lifestyle-01.jpg",
+                    "BFGY-P1PK-lifestyle-02.jpg",
+                    "BFGY-P1PK-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "Opolar",
+                "sku": "OPL-F2211",
+                "product_name": "Emmerich 4 in. 3 Speeds Handheld Personal Desk Fan with 10400mAh Battery in Black",
+                "color": "Black",
+                "dimensions": "4.8\"L x 4.3\"W x 2.9\"H",
+                "map": "$39.99",
+                "background_css_style": "light-yellow",
+                "image_path": "catalog/product/and-more/opolar/",
+                "thumbnail": "OPL-F2211-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "OPL-F2211-lifestyle-01.jpg"
+                ]
+            },{
+                "brand": "Opolar",
+                "sku": "OPL-CD01C",
+                "product_name": "Renilda Cordless Air Duster Air Blower in Black",
+                "color": "Black",
+                "dimensions": "7.17\"L x 3.98\" W x 2.64\"H",
+                "map": "$69.99",
+                "background_css_style": "dark-orange",
+                "image_path": "catalog/product/and-more/opolar/",
+                "thumbnail": "OPL-CD01C-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "OPL-CD01C-lifestyle-01.jpg"
+                ]
+            },{
+                "brand": "K1 Pet Design",
+                "sku": "KSF-933N-02",
+                "product_name": "K1 Wickman Dog Sofa Blue",
+                "color": "Blue",
+                "dimensions": "11.8\"H x 22.8\"W x 30.7\"L",
+                "map": "$99.00",
+                "background_css_style": "dark-yellow",
+                "image_path": "catalog/product/and-more/k1-pet-design/",
+                "thumbnail": "KSF-933N-02-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "KSF-933N-02-lifestyle-01.jpg",
+                    "KSF-933N-02-lifestyle-02.jpg"
+                ]
+            },{
+                "brand": "K1 Pet Design",
+                "sku": "K1-KLC-002-01",
+                "product_name": "K1 Dragon Ball Cat Cave - Sky Blue",
+                "color": "Blue",
+                "dimensions": "17\"H x 17\"W x 17\"L",
+                "map": "$33",
+                "background_css_style": "light-purple",
+                "image_path": "catalog/product/and-more/k1-pet-design/",
+                "thumbnail": "K1-KLC-002-01-main.png",
+                "thumbnail_shape": "square",
+                "lifestyles": [
+                    "K1-KLC-002-01-lifestyle-01.jpg",
+                    "K1-KLC-002-01-lifestyle-02.jpg",
+                    "K1-KLC-002-01-lifestyle-03.jpg"
+                ]
+            },{
+                "brand": "K1 Pet Design",
+                "sku": "K1-KF-01",
+                "product_name": "K1 CapCap pet food table-Walnut",
+                "color": "Walnut",
+                "dimensions": "4.3\"H x 20.9\"W x 8.3\"L",
+                "map": "$46.99",
+                "background_css_style": "light-gray",
+                "image_path": "catalog/product/and-more/k1-pet-design/",
+                "thumbnail": "K1-KF-01-main.png",
+                "thumbnail_shape": "h-rectangle",
+                "lifestyles": [
+                    "K1-KF-01-lifestyle-01.jpg",
+                    "K1-KF-01-lifestyle-02.jpg",
+                    "K1-KF-01-lifestyle-03.jpg"
+                ]
+            }
+        ]
+    }
+]

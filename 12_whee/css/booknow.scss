@@ -1,0 +1,13 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+
+// Book Now
+.bg-wallpaper {
+    &::before {
+        background-image: url(../images/booking/bg_booking.jpg);
+    }
+}

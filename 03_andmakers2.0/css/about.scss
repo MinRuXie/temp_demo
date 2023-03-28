@@ -1,0 +1,170 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+// hero
+.hero-section {
+    background-image: url('/03_andmakers2.0/images/about/bg_about_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+    padding: 185px 0 100px;
+
+    @media screen and (max-width: 1199.98px) {
+        background-attachment: unset;
+        padding: 100px 0 60px;
+    }
+
+    .hero-right-wrap {
+        .image-wrap {
+            @media screen and (max-width: 1199.98px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+// Our Story
+.story-section {
+    .story-video-wrap {
+        position: relative;
+        z-index: 0;
+        padding: 0 15.75%;
+
+        @media screen and (max-width: 1199.98px) {
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .btn-wrap {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            z-index: 1;
+
+            @media screen and (max-width: 1199.98px) {
+                display: none;
+            }
+        }
+    }
+
+    .story-title-wrap {
+        .btn-wrap {
+            margin-top: 30px;
+            display: none;
+
+            @media screen and (max-width: 1199.98px) {
+                display: block;
+            }
+        }
+    }
+}
+
+// Core Values
+.value-section {
+    background-color: rgba($color-light-gray, .5);
+
+    .value-title-wrap {
+        text-align: center;
+    }
+
+    .value-card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .value-card {
+            width: calc((100% - 72px)/4);
+            margin-top: 60px;
+            text-align: center;
+
+            @media screen and (max-width: 1199.98px) {
+                width: 100%;
+            }
+    
+            .value-icon-wrap {
+                width: 72px;
+                height: 72px;
+                background-color: $color-light-purple;
+                border-radius: 50%;
+                margin: 0 auto 15px;
+
+                i {
+                    font-size: 36px;
+                    line-height: 72px;
+                }
+            }
+    
+            .value-content-wrap {
+                .value-title {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+// Our Team
+.team-section {
+    .team-title-wrap {
+        text-align: center;
+    }
+
+    .member-card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &.chief-layout {
+            .member-card {
+                width: calc((100% - 45px)/4);
+
+                @media screen and (max-width: 1199.98px) {
+                    width: calc((100% - 10px)/2);
+                }
+            }
+        }
+
+        &.team-lead-layout {
+            .member-card {
+                width: calc((100% - 60px)/5);
+
+                @media screen and (max-width: 1199.98px) {
+                    width: calc((100% - 10px)/2);
+                }
+            }
+        }
+        
+        .member-card {
+            margin-top: 60px;
+
+            @media screen and (max-width: 1199.98px) {
+                margin-top: 30px;
+            }
+
+            .member-photo-wrap {
+                border-radius: $border-radius-l;
+                overflow: hidden;
+                margin-bottom: 15px;
+
+                @media screen and (max-width: 1199.98px) {
+                    margin-bottom: 12px;
+                }
+            }
+
+            .member-intro-wrap {
+                p {
+                    margin: 0;
+                }
+
+                .member-name {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}

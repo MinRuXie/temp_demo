@@ -1,0 +1,22 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+// booknow-booth
+#booking.template-wrap {
+    // Template-C
+    .c-content-wrap {
+        .content-inner--accordion {
+            .content-inner--accordion-wrap {
+                .content-footer {
+                    .price-wrap {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

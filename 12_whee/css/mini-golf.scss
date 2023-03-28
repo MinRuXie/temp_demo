@@ -1,0 +1,46 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+
+// Mini-Golf
+.bg-wallpaper {
+    &::before {
+        background-image: url(../images/minigolf/bg_intro.jpg);
+    }
+}
+#mini-golf-photo-news {
+    display: none;
+
+    .b-content-wrap {
+        .content-inner--slideshow-cover {
+            .card-cover {
+                &.card-bg-1 {
+                    background-image: url(../images/minigolf/photonews_01.jpg);
+                }
+
+                &.card-bg-2 {
+                    background-image: url(../images/minigolf/photonews_02.jpg);
+                }
+
+                &.card-bg-3 {
+                    background-image: url(../images/minigolf/photonews_03.jpg);
+                }
+
+                &.card-bg-4 {
+                    background-image: url(../images/minigolf/photonews_04.jpg);
+                }
+
+                &.card-bg-5 {
+                    background-image: url(../images/minigolf/photonews_05.jpg);
+                }
+
+                &.card-bg-6 {
+                    background-image: url(../images/minigolf/photonews_06.jpg);
+                }
+            }
+        }   
+    }
+}

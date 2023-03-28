@@ -1,0 +1,54 @@
+[
+    {
+        "sku": "IWT-RS-01",
+        "brand_name": "Iwatani",
+        "image_path": "catalog/product/outdoor/iwatani/",
+        "thumbnail": "IWT-RS-01-main.png",
+        "lifestyle": "IWT-RS-01-lifestyle-01.jpg",
+        "reviews": [
+            {
+                "author": "Derrick from Hayward, CA",
+                "comment": "Great quality burner and extremely hot. Even with the strong wind, the fire doesn't go out often."
+            },{
+                "author": "Steven from Quebec City, Canada",
+                "comment": "Exactly what I needed to get my family together to have a nice hot pot dinner. The heat was consistent and powerful. The main thing I noticed that is different from this unit compared to others in the market is the wind resistant guard."
+            },{
+                "author": "Amber from STILLWATER, MN",
+                "comment": "Love this stove!"
+            }
+        ]
+    },{
+        "sku": "MZ-SS-Gamma-L-O",
+        "brand_name": "Myzoo",
+        "image_path": "catalog/product/and-more/myzoo/",
+        "thumbnail": "MZ-SS-Gamma-L-O-main.png",
+        "lifestyle": "MZ-SS-Gamma-L-O-lifestyle-01.jpg",
+        "reviews": [
+            {
+                "author": "Tom B from USA",
+                "comment": "I love this and so does my cat. It's such a great looking design and looks great on my wall. My only criticism is the dome was a little tricky to screw onto the main part. It isn't complicated its just a little awkward. Apart from that this cat bed/spaceship is awesome!"
+            },{
+                "author": "Katie Swinburne from USA",
+                "comment": "My cat loves his spaceship. Goes up there every day to take a nap or if he needs to \"get away from it all\". What is even better is that it looks like a piece of art. Matches my style perfectly. It is a win-win. My cat gets a home he loves and loves don’t have to suffer the eyesore of the typical pet bed."
+            },{
+                "author": "Liz from USA",
+                "comment": "This is the opposite of those shag carpet cat condos! Very modern and attractive way to catify your home! My cat didn’t seem interested for the first week, but now he’s in there all the time. I mixed them with shelves to give him a place to jump and climb and hangout. Great purchase. Hard to find these in stock."
+            }
+        ]
+    },{
+        "sku": "SP-2126-ABK",
+        "brand_name": "Homestead",
+        "image_path": "catalog/product/furniture/homestead/",
+        "thumbnail": "SP-2126-ABK-main.png",
+        "lifestyle": "SP-2126-ABK-lifestyle-01.jpg",
+        "reviews": [
+            {
+                "author": "Cherie from MOORESBORO, NC",
+                "comment": "Love this. I use it as both an end table and a tray to eat dinner on the couch."
+            },{
+                "author": "Happy Customer from USA",
+                "comment": "Beautiful tray table."
+            }
+        ]
+    }
+]

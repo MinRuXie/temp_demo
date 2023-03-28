@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+.container-xl {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
+@media screen and (min-width: 1200px) {
+  .container-xl {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container-xl {
+    max-width: 1280px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-xl {
+    max-width: 1524px !important;
+  }
+}
+
+.contact-section {
+  background-image: url("/03_andmakers2.0/images/contact/bg_contact_map.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  padding-top: 180px;
+}
+@media screen and (max-width: 1199.98px) {
+  .contact-section {
+    background-image: none;
+    padding-top: 70px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .contact-section .contact-upper-section {
+    background-image: url("/03_andmakers2.0/images/contact/bg_contact_map_m.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 85%;
+  }
+}
+.contact-section .contact-upper-section .contact-title-wrap .contact-subtitle {
+  margin-top: 10px;
+}
+.contact-section .contact-upper-section .contact-title-wrap .contact-des {
+  margin-top: 10px;
+}
+.contact-section .contact-lower-section .contact-form-wrap {
+  margin-top: 60px;
+}
+@media screen and (max-width: 1199.98px) {
+  .contact-section .contact-lower-section .contact-form-wrap {
+    margin-top: 30px;
+  }
+}
+.contact-section .contact-lower-section .contact-form-wrap .roles-tab-nav-wrap {
+  margin-top: 10px;
+}
+.contact-section .contact-lower-section .contact-form-wrap .form-check-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+@media screen and (max-width: 1199.98px) {
+  .contact-section .contact-lower-section .contact-form-wrap .form-check-wrap {
+    margin: 30px 0;
+  }
+}
+.contact-section .contact-lower-section .contact-form-wrap .form-btn-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=contact.css.map */

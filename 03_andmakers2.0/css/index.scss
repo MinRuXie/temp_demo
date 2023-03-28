@@ -1,0 +1,321 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+
+// hero
+.hero-section {
+    background-image: url('/03_andmakers2.0/images/home/bg_home_hero.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    padding: 245px 0 112px;
+    min-height: 740px;
+
+    @media screen and (max-width: 1199.98px) {
+        padding: 120px 0 50px;
+    }
+
+    .hero-left-wrap {
+
+        p {
+            margin: 15px 0 30px;
+        }
+    }
+
+    .hero-right-wrap {
+        position: relative;
+        margin: 0 88px 0 82.7px;
+
+        @media screen and (max-width: 1199.98px) {
+            margin: 0 0 40px;
+        }
+
+        .image-wrap {
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .btn-wrap {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+}
+
+// service
+.service-section {
+
+    .service-card-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 36px;
+        margin: 42px 0 60px;
+
+        @media screen and (max-width: 1199.98px) {
+            grid-template-columns: 1fr;
+            grid-row-gap: 27px;
+            margin: 41px 0 40px;
+        }
+
+        .service-card {
+            position: relative;
+            padding-top: 80px;
+            height: 100%;
+    
+            .service-icon-wrap {
+                width: 160px;
+                height: 160px;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+    
+            .service-info-wrap {
+                padding: 92px 30px 30px;
+                border: 1px solid $color-border;
+                border-radius: $border-radius-m;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                height: 100%;
+
+                @media screen and (max-width: 1199.98px) {
+                    padding: 92px 20px 30px;
+                }
+    
+                .info-des {
+                    margin-top: 8px;
+                    text-align: center;
+
+                    @media screen and (max-width: 1199.98px) {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }  
+    
+    .service-cta-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+// about
+.about-section {
+    background-image: url('/03_andmakers2.0/images/home/bg_home_testimonial.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    @media screen and (max-width: 1199.98px) {
+        background-attachment: unset;
+        background-size: contain;
+    }
+
+    .about-title-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-info-wrap,
+    .about-image-wrap {
+        margin-top: 60px;
+
+        @media screen and (max-width: 1199.98px) {
+            margin-top: 30px;
+        }
+    }
+
+    .about-info-wrap {
+        padding: 60px;
+
+        @media screen and (max-width: 1199.98px) {
+            padding: 0;
+        }
+
+        .info-subtitle {
+            margin-top: 10px;
+        }
+    
+        .info-des {
+            margin-top: 30px;
+        }
+    
+        .info-author {
+            margin-top: 20px;
+            color: $color-dark-gray;
+        }
+    }
+
+    .about-image-wrap {
+        position: relative;
+
+        .image-wrap {
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    
+        // play button
+        .btn-wrap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .about-cta-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+
+        @media screen and (max-width: 1199.98px) {
+            flex-direction: column;
+            margin-top: 40px;
+        }
+
+        .cta-btn + .cta-btn {
+            margin: 0 0 0 15px;
+
+            @media screen and (max-width: 1199.98px) {
+                margin: 10px 0 0;
+            }
+        }
+    }
+}
+
+// retail
+.retail-section {
+
+    .retail-title-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .retail-content-wrap {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 8px;
+
+        @media screen and (max-width: 1199.98px) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 12px;
+        }
+
+        .retail-item {
+
+            &:hover {
+                
+                img {
+                    filter: grayscale(0);
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                filter: grayscale(1);
+                transition: .3s;
+            }
+        }
+    }
+}
+
+// faq
+.faq-section {
+    background-color: rgba($color-light-gray, .5);
+
+    .faq-title-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .link {
+            margin-top: 30px;
+
+            @media screen and (max-width: 1199.98px) {
+                display: none;
+            }
+        }
+    }
+
+    .faq-content-wrap {
+
+        @media screen and (max-width: 1199.98px) {
+            margin: 30px 0 40px;
+        }
+    }
+
+    .faq-footer-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+// location
+.location-section {
+    background-image: url('/03_andmakers2.0/images/home/bg_home_cta.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding: 150px 0 304px;
+
+    @media screen and (max-width: 1199.98px) {
+        padding: 80px 0 219px;
+        background-size: auto 195px;
+    }
+
+    .location-wrap {
+
+        .location-title {
+            font-size: 42px;
+            line-height: 1.25;
+            letter-spacing: 0.5px;
+
+            @media screen and (max-width: 1199.98px) {
+                font-size: 32px;
+            }
+        }
+
+        .location-des {
+            margin: 15px 0 30px;
+
+            @media screen and (max-width: 1199.98px) {
+                margin: 10px 0 30px;
+            }
+        }
+    }
+}

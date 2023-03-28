@@ -1,0 +1,469 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+// FAQs
+#faqs {
+    .faqs-header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        padding: 60px 0 18px;
+        background-color: $color-bg-1;
+
+        @media screen and (max-width: 1199.98px) {
+            padding: 70px 0 0;
+        }
+
+        &::after {
+            content: '';
+            width: 100%;
+            height: 42px;
+            position: absolute;
+            bottom: -42px;
+            left: 0;
+            background-image: linear-gradient(to bottom, $color-bg-1, rgba($color-bg-1, 0));
+        }
+
+        .faqs-category-wrap {
+            position: relative;
+        }
+
+        .title-wrap {
+            text-align: center;
+            margin-bottom: 30px;
+
+            @media screen and (max-width: 1199.98px) {
+                margin-bottom: 12px;
+            }
+        }
+
+        .faqs-category {
+
+            @media screen and (min-width: 1200px) {
+                position: static;
+                display: block;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                border: none;
+                background-color: transparent;
+            }
+            
+            @media screen and (max-width: 1199.98px) {
+                padding: 0;
+                margin: 0;
+                border-radius: 0 0 8px 8px;
+                max-height: 194px;
+                overflow-y: scroll;
+            }
+
+            .nav-tabs {
+                border: none;
+                justify-content: center;
+            }
+
+            .nav-item {
+
+                @media screen and (max-width: 1199.98px) {
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+
+                & + .nav-item {
+                    margin-left: 12px;
+
+                    @media screen and (max-width: 1199.98px) {
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            .nav-link {
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                line-height: 1.5;
+                color: rgba($color-black, 0.5);
+                background-color: transparent;
+                border: 1px solid rgba($color-black, 0.2);
+                border-radius: 8px;
+                padding: 8px 24px;
+                transition: 0.3s;
+
+                @media screen and (max-width: 1440px) {
+                    font-size: 16px;
+                    padding: 10px 16px
+                }
+
+                @media screen and (max-width: 1199.98px) {
+                    font-size: 18px;
+                    letter-spacing: 0.9px;
+                    width: 100%;
+                    background-color: $color-white;
+                    border-radius: 0;
+                    border-width: 1px 0 0 0;
+                    padding: 10px 16px
+                }
+
+                &.active {
+                    color: $color-white;
+                    background-color: $color-orange;
+                    border: 1px solid transparent;
+
+                    @media screen and (max-width: 1199.98px) {
+                        color: rgba($color-black, 0.5);
+                        background-color: $color-white;
+                        border: 1px solid rgba($color-black, 0.2);
+                        border-width: 1px 0 0 0;
+                    }
+                }
+
+                &:hover {
+                    color: $color-white;
+                    background-color: $color-dark-orange;
+                    border: 1px solid transparent;
+
+                    @media screen and (max-width: 1199.98px) {
+                        border-width: 1px 0 0 0;
+                    }
+                }
+            }
+        }
+
+        // mobile faqs category
+        .faqs-dropdown {
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.9px;
+            line-height: 1.5;
+            color: $color-white;
+            background-color: $color-orange;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            padding: 8px 16px;
+            position: relative;
+            display: none;
+
+            @media screen and (max-width: 1199.98px) {
+                display: block;
+            }
+
+            &::after {
+                content: '\e903';
+                font-family: 'icomoon';
+                font-size: 36px;
+                line-height: 1;
+                position: absolute;
+                right: 3px;
+                top: 3px;
+                transform: rotate(180deg);
+                transition: 0.3s;
+                border: none;
+                margin: 0;
+                vertical-align: 0;
+            }
+
+            &[aria-expanded="true"] {
+                border-radius: 8px 8px 0 0;
+
+                &::after {
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+
+    .faqs-body {
+        padding: 317px 0 90px;
+
+        @media screen and (max-width: 1440px) {
+            padding: 283px 0 90px;
+        }
+
+        @media screen and (max-width: 1199.98px) {
+            padding: 242px 0 90px;
+        }
+
+        h3 {
+            display: none;
+        }
+
+        #faqsTabContent {
+            .card,
+            .card-header,
+            button {
+                background-color: transparent;
+                border-radius: 0;
+            }
+
+            .card {
+                border: none;
+
+                .card-header {
+                    padding: 0;
+                    margin: 0;
+                    border: none;
+
+                    button {
+                        &:hover,
+                        &:focus {
+                            text-decoration: none;
+                        }
+
+                        &:focus,
+                        &:active {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                    }
+
+                    button {
+                        padding: 6px;
+                        color: $color-black;
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        line-height: 1.5;
+                        border-bottom: 1px solid $color-border;
+                        transition: 0.3s;
+                        position: relative;
+
+                        @media screen and (max-width: 1440px) {
+                            font-size: 18px;
+                        }
+
+                        @media screen and (max-width: 1199.98px) {
+                            padding: 10px 60px 10px 29px;
+                            font-size: 18px;
+                            letter-spacing: 0.9px;
+                            text-indent: -29px;
+                        }
+
+                        i {
+                            font-size: 48px;
+                            vertical-align: middle;
+
+                            @media screen and (max-width: 1440px) {
+                                font-size: 36px;
+                            }
+
+                            @media screen and (max-width: 1199.98px) {
+                                font-size: 24px;
+                            }
+
+                            &.icon-minigolf {
+                                margin-right: 6px;
+
+                                @media screen and (max-width: 1199.98px) {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+
+                        &:after {
+                            content: '\e903';
+                            font-family: 'icomoon';
+                            font-size: 48px;
+                            line-height: 1;
+                            position: absolute;
+                            right: 0;
+                            top: 6px;
+                            transform: rotate(180deg);
+                            transition: 0.3s;
+
+                            @media screen and (max-width: 1199.98px) {
+                                font-size: 42px;
+                                top: 3px;
+                                text-indent: 0;
+                            }
+                        }
+
+                        // Open
+                        &:not(.collapsed) {
+                            color: $color-orange;
+                            border-bottom: 1px solid $color-orange;
+
+                            i {
+                                &.icon-minigolf {
+                                    color: $color-orange;
+                                }
+                            }
+
+                            &:after {
+                                transform: rotate(0deg);
+                            }
+                        }
+                    }
+                }
+
+                .card-body {
+                    padding: 30px 72px 30px 60px;
+
+                    @media screen and (max-width: 1440px) {
+                        padding: 24px 54px 24px 48px;
+                    }
+
+                    @media screen and (max-width: 1199.98px) {
+                        padding: 12px 0;
+                    }
+
+                    p {
+                        & + p {
+                            margin-top: 30px;
+
+                            @media screen and (max-width: 1199.98px) {
+                                margin-top: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .faqs-spec-mobile-wrap {
+        display: none;
+        margin: 24px 0 12px;
+
+        @media screen and (max-width: 1199.98px) {
+            display: block;
+        }
+
+        .faqs-spec-tab {
+            .nav-tabs {
+                border-bottom: 1px solid $color-orange;
+            }
+
+            .nav-item {
+                margin: 0;
+                max-width: 100%;
+                flex-grow: 1;
+                flex-basis: 0;
+            }
+
+            .nav-link {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.7px;
+                line-height: 20px;
+                color: $color-black;
+                text-align: center;
+                background-color: transparent;
+                border: none;
+                border-bottom: 2px solid transparent;
+                padding: 8px;
+
+                &.active {
+                    color: $color-orange;
+                    border-bottom: 2px solid $color-orange;
+                }
+            }
+        }
+    }
+
+    .faqs-table {
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        margin: 30px 0;
+        overflow: hidden;
+
+        @media screen and (max-width: 1440px) {
+            margin: 18px 0;
+        }
+
+        @media screen and (max-width: 1199.98px) {
+            border-width: 1px;
+            margin: 18px 0;
+        }
+
+        &.table-col-2 {
+            th, 
+            td {
+                width: 66.66%;
+            }
+
+            th:first-child,
+            td:first-child {
+                width: 33.33%;
+            }
+        }
+
+        &.table-col-3 {
+            @media screen and (max-width: 1199.98px) {
+                display: none;
+            }
+
+            tr th, tr td {
+                width: 33.33%;
+            }
+        }
+
+        &.table-col-4 {
+            @media screen and (max-width: 1199.98px) {
+                display: none;
+            }
+
+            tr th, tr td {
+                width: 25%;
+            }
+        }
+
+        tr {
+            border-bottom: 1px solid $color-gray;
+
+            &:last-child {
+                border-bottom: 1px solid transparent;
+            }
+
+            th, td {
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 0.9px;
+                line-height: 1.5;
+                padding: 10px 20px;
+                background-color: $color-white;
+                border-left: 1px solid $color-gray;
+
+                @media screen and (max-width: 1440px) {
+                    font-size: 16px;
+                    padding: 8px 12px;
+                }
+
+                @media screen and (max-width: 1199.98px) {
+                    font-size: 14px;
+                    letter-spacing: 0.7px;
+                    padding: 8px 10px;
+                }
+            }
+
+            th {
+                border-bottom: 1px solid $color-orange;
+
+                &:first-child {
+                    color: $color-white;
+                    background-color: $color-orange;
+                    border-right: 1px solid $color-gray;
+                    border-bottom: 1px solid $color-white;
+                }
+            }
+
+            td:first-child {
+                color: $color-white;
+                background-color: $color-orange;
+                border-top: 1px solid rgba($color-white, 0.3);
+
+                @media screen and (max-width: 1199.98px) {
+                    border-width: 1px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+// Override bootstrap
+
+.container-xl {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+
+    @media screen and (min-width: 1200px){
+        padding-right: 12px !important;
+        padding-left: 12px !important;
+    }
+
+    @media screen and (min-width: 1400px){
+        max-width: 1280px !important;
+    }
+
+    @media screen and (min-width: 1600px){
+        max-width: 1524px !important;
+    }
+}

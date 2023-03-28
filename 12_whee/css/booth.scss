@@ -1,0 +1,76 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+
+// Booth
+.bg-wallpaper {
+    &::before {
+        background-image: url(../images/booth/bg_intro.jpg);
+    }
+}
+
+.title-wrap h2,
+.title-wrap h3,
+.a-content-wrap {
+    color: $color-white;
+}
+
+#booth-service,
+#booth-space {
+    display: none;
+}
+
+#booth-space {
+    .b-content-wrap {
+        .content-inner--slideshow-cover {
+            .owl-theme {
+                .owl-dots {
+                    .owl-dot {                    
+                        &.active {
+                            span {
+                                background-color: $color-white;
+                            }
+                        }
+
+                        span {
+                            background-color: $color-white;
+                        }
+                    }
+                }
+            }
+
+            .card-cover {
+                &.card-bg-1 {
+                    background-image: url(../images/booth/space_01.jpg);
+                }
+
+                &.card-bg-2 {
+                    background-image: url(../images/booth/space_02.jpg);
+                }
+
+                &.card-bg-3 {
+                    background-image: url(../images/booth/space_03.jpg);
+                }
+
+                &.card-bg-4 {
+                    background-image: url(../images/booth/space_04.jpg);
+                }
+
+                &.card-bg-5 {
+                    background-image: url(../images/booth/space_05.jpg);
+                }
+
+                &.card-bg-6 {
+                    background-image: url(../images/booth/space_06.jpg);
+                }
+
+                figcaption {
+                    color: $color-white;
+                }
+            }
+        }   
+    }
+}

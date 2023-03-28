@@ -1,0 +1,78 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+
+// contact
+.contact-section {
+    background-image: url('/03_andmakers2.0/images/contact/bg_contact_map.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    padding-top: 180px;
+
+    @media screen and (max-width: 1199.98px) {
+        background-image: none;
+        padding-top: 70px;
+    }
+
+    // contact - title
+    .contact-upper-section {
+        
+        @media screen and (max-width: 1199.98px) {
+            background-image: url('/03_andmakers2.0/images/contact/bg_contact_map_m.jpg');
+            background-size: cover;
+            padding-bottom: 30px;
+            padding-top: 85%;
+        }
+        
+        .contact-title-wrap {
+
+            .contact-subtitle {
+                margin-top: 10px;
+            }
+
+            .contact-des {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    // contact - form
+    .contact-lower-section {
+
+        .contact-form-wrap {
+            margin-top: 60px;
+
+            @media screen and (max-width: 1199.98px) {
+                margin-top: 30px;
+            }
+
+            // radio button tab
+            .roles-tab-nav-wrap {
+                margin-top: 10px;
+            }
+
+            // privacy checkbox
+            .form-check-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 40px 0;
+
+                @media screen and (max-width: 1199.98px) {
+                    margin: 30px 0;
+                }
+            }
+
+            // submit button
+            .form-btn-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

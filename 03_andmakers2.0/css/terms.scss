@@ -1,0 +1,86 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+
+// terms
+.terms-section {
+    padding-top: 180px;
+    background-image: linear-gradient(to bottom, rgba($color-light-gray, 0.5), $color-white);
+
+    @media screen and (max-width: 1199.98px) {
+        padding-top: 130px;
+    }
+
+    // terms - title
+    .terms-title-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    // terms - content
+    .terms-content-wrap {
+        padding-top: 60px;
+        
+        // terms - content -- portal
+        .terms-link-wrap {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            .link-item:first-child {
+                border-top: 1px solid $color-border;
+            }
+
+            .link-item {
+                padding: 20px;
+                border-bottom: 1px solid $color-border;
+
+                @media screen and (max-width: 1199.98px) {
+                    padding: 20px 0;
+                }
+            }
+        }
+
+        // terms - content -- data
+
+        // h2
+        .content-title {
+            margin-bottom: 30px;
+        }
+
+        .content-item + .content-item {
+            margin-top: 60px;
+        }
+
+        .content-item {
+
+            // h3
+            .item-title {
+                margin-bottom: 24px;
+
+                @media screen and (max-width: 1199.98px) {
+                    margin-bottom: 15px;
+                }
+            }
+
+            // ul, ol
+            .terms-list {
+                margin: 0;
+
+                &.in-top,
+                &.in-middle {
+                    margin-bottom: 10px;
+                }
+
+                &.in-bottom,
+                &.in-middle {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

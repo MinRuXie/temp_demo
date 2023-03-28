@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+.container-xl {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
+@media screen and (min-width: 1200px) {
+  .container-xl {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container-xl {
+    max-width: 1280px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-xl {
+    max-width: 1524px !important;
+  }
+}
+
+.not-found-section {
+  padding-top: 200px;
+  background-image: linear-gradient(to bottom, rgba(241, 239, 239, 0.5), #fff);
+}
+@media screen and (max-width: 1199.98px) {
+  .not-found-section {
+    padding-top: 130px;
+  }
+}
+.not-found-section .not-found-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.not-found-section .not-found-wrap .cta-btn {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=not-found.css.map */

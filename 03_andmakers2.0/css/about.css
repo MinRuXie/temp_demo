@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+.container-xl {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
+@media screen and (min-width: 1200px) {
+  .container-xl {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container-xl {
+    max-width: 1280px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-xl {
+    max-width: 1524px !important;
+  }
+}
+
+.hero-section {
+  background-image: url("/03_andmakers2.0/images/about/bg_about_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  background-attachment: fixed;
+  padding: 185px 0 100px;
+}
+@media screen and (max-width: 1199.98px) {
+  .hero-section {
+    background-attachment: unset;
+    padding: 100px 0 60px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .hero-section .hero-right-wrap .image-wrap {
+    margin-bottom: 20px;
+  }
+}
+
+.story-section .story-video-wrap {
+  position: relative;
+  z-index: 0;
+  padding: 0 15.75%;
+}
+@media screen and (max-width: 1199.98px) {
+  .story-section .story-video-wrap {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+}
+.story-section .story-video-wrap .btn-wrap {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+@media screen and (max-width: 1199.98px) {
+  .story-section .story-video-wrap .btn-wrap {
+    display: none;
+  }
+}
+.story-section .story-title-wrap .btn-wrap {
+  margin-top: 30px;
+  display: none;
+}
+@media screen and (max-width: 1199.98px) {
+  .story-section .story-title-wrap .btn-wrap {
+    display: block;
+  }
+}
+
+.value-section {
+  background-color: rgba(241, 239, 239, 0.5);
+}
+.value-section .value-title-wrap {
+  text-align: center;
+}
+.value-section .value-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.value-section .value-card-wrap .value-card {
+  width: calc((100% - 72px)/4);
+  margin-top: 60px;
+  text-align: center;
+}
+@media screen and (max-width: 1199.98px) {
+  .value-section .value-card-wrap .value-card {
+    width: 100%;
+  }
+}
+.value-section .value-card-wrap .value-card .value-icon-wrap {
+  width: 72px;
+  height: 72px;
+  background-color: #f0e6ec;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+.value-section .value-card-wrap .value-card .value-icon-wrap i {
+  font-size: 36px;
+  line-height: 72px;
+}
+.value-section .value-card-wrap .value-card .value-content-wrap .value-title {
+  margin-bottom: 5px;
+}
+
+.team-section .team-title-wrap {
+  text-align: center;
+}
+.team-section .member-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.team-section .member-card-wrap.chief-layout .member-card {
+  width: calc((100% - 45px)/4);
+}
+@media screen and (max-width: 1199.98px) {
+  .team-section .member-card-wrap.chief-layout .member-card {
+    width: calc((100% - 10px)/2);
+  }
+}
+.team-section .member-card-wrap.team-lead-layout .member-card {
+  width: calc((100% - 60px)/5);
+}
+@media screen and (max-width: 1199.98px) {
+  .team-section .member-card-wrap.team-lead-layout .member-card {
+    width: calc((100% - 10px)/2);
+  }
+}
+.team-section .member-card-wrap .member-card {
+  margin-top: 60px;
+}
+@media screen and (max-width: 1199.98px) {
+  .team-section .member-card-wrap .member-card {
+    margin-top: 30px;
+  }
+}
+.team-section .member-card-wrap .member-card .member-photo-wrap {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 1199.98px) {
+  .team-section .member-card-wrap .member-card .member-photo-wrap {
+    margin-bottom: 12px;
+  }
+}
+.team-section .member-card-wrap .member-card .member-intro-wrap p {
+  margin: 0;
+}
+.team-section .member-card-wrap .member-card .member-intro-wrap .member-name {
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=about.css.map */

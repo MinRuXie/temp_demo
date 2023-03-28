@@ -1,0 +1,54 @@
+//------------------
+// Fonts
+//------------------
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+$font-heading: 'Raleway', sans-serif;
+$font-content: 'Open Sans', sans-serif;
+
+//------------------
+// Color
+//------------------
+
+// Primary Colors
+$color-primary: #6f1c5a;
+$color-secondary: #b6258f;
+$color-gray-purple: #e5e1e6;
+
+// Secondary Colors
+$color-light-orange: #feefeb;
+$color-light-yellow: #fff9ed;
+$color-light-green: #edf7f4;
+$color-light-purple: #f0e6ec;
+$color-dark-orange: #f5826c;
+$color-dark-yellow: #ffc577;
+$color-dark-green: #77b6a0;
+$color-dark-purple: #875873;
+
+// Neutral Colors
+$color-black: #111112;
+$color-black-gray: #242424;
+$color-dark-gray: #8d8282;
+$color-light-gray: #f1efef;
+$color-white: #fff;
+
+// System Colors
+$color-success: #6ec800;
+$color-danger: #eb4646;
+$color-border: #ddd;
+
+//------------------
+// Border Radius
+//------------------
+
+$border-radius-s: 2px;
+$border-radius-m: 6px;
+$border-radius-l: 10px;
+
+//------------------
+// Box Shadow
+//------------------
+
+$box-shadow-default: 0 15px 30px 0 rgba($color-primary, 0.06);
+$box-shadow-hover: 0 15px 30px 0 rgba($color-primary, 0.18);

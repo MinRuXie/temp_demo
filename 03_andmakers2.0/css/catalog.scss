@@ -1,0 +1,316 @@
+// Variable
+@import 'variable';
+
+// Override Bootstrap
+@import 'mixin';
+
+
+// hero
+.hero-section {
+    position: relative;
+    padding: 80px 0 0;
+
+    @media screen and (max-width: 1199.98px) {
+        padding: 70px 0 60px;
+    }
+
+    // hero - background
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: $color-light-gray;
+        display: block;
+        width: 100%;
+        height: 90%;
+
+        @media screen and (max-width: 1199.98px) {
+            height: 100%;
+        }
+    }
+
+    // hero - left
+    .hero-left-wrap {
+
+        @media screen and (max-width: 1199.98px) {
+            margin-top: 40px;
+        }
+
+        .hero-list {
+            margin: 15px 0 30px;
+            list-style-type: none;
+            padding: 0;
+
+            @media screen and (max-width: 1199.98px) {
+                margin: 10px 0 30px;
+            }
+
+            .hero-item + .hero-item {
+                margin-top: 5px;
+            }
+
+            .hero-item {
+                font-size: 16px;
+                line-height: 1.75;
+                letter-spacing: 0.5px;
+                color: $color-black;
+                display: flex;
+
+                // V
+                &::before {
+                    font-family: 'icomoon' !important;
+                    content: "\e90a";
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    font-size: 24px;
+                    line-height: 24px;
+                    color: $color-secondary;
+                    transform: translateY(3px);
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    // hero - right
+    .hero-right-wrap {
+
+        .image-wrap {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+// categories
+.categories-section {
+
+    .categories-title-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: 1199.98px) {
+            justify-content: flex-start;
+        }
+    }
+
+    .categories-content-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: 1199.98px) {
+            margin-top: 10px;
+        }
+
+        // categories - mobile sticky effect
+        &.sticky-effect {
+            
+            // categories -- tab nav
+            .categories-tab-nav-wrap {
+                @media screen and (max-width: 1199.98px) {
+                    position: fixed;
+                    top: 70px;
+                    left: 0;
+                    z-index: 200;
+                    width: 100%;
+                    padding: 0 24px;
+                    margin: 0;
+                    border-bottom: 1px solid $color-gray-purple;
+                    background-color: $color-white;
+                }
+
+                .nav-link {
+                    @media screen and (max-width: 1199.98px) {
+                        padding: 15px 0 0;
+                    }
+                }
+            }
+
+            // categories -- tab content
+            .categories-tab-content-wrap {
+                @media screen and (max-width: 1199.98px) {
+                    margin-top: 72px; /* 48 + 24 */
+                }
+            }
+        }
+
+        // categories - tab nav
+        .categories-tab-nav-wrap {
+            margin-top: 50px;
+
+            @media screen and (max-width: 1199.98px) {
+                margin-top: 10px;
+                width: 100%;
+                overflow-x: auto;
+                flex-wrap: nowrap;
+            }
+        }
+
+        // categories - tab content
+        .categories-tab-content-wrap {
+            width: 100%;
+
+            .grid-card-wrap {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-column-gap: 20px;
+                grid-row-gap: 20px;
+
+                @media screen and (max-width: 1199.98px) {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-column-gap: 10px;
+                    grid-row-gap: 10px;
+                }
+            }
+
+            // categories - tab content -- furniture
+            .furniture-card-wrap {
+                
+                .catalog-card-wrap {
+
+                    &:nth-of-type(1) {
+                        grid-area: 1 / 1 / span 1 / span 2;
+                    }
+
+                    &:nth-of-type(7) {
+                        grid-area: 2 / 4 / span 2 / span 1;
+
+                        @media screen and (max-width: 1199.98px) {
+                            grid-area: 4 / 2 / span 2 / span 1;
+                        }
+                    }
+                }
+            }
+
+            // categories - tab content -- home decor
+            .home-decor-card-wrap {
+
+                .catalog-card-wrap {
+
+                    &:nth-of-type(1) {
+                        grid-area: 1 / 1 / span 1 / span 2;
+                    }
+
+                    &:nth-of-type(3) {
+                        grid-area: 1 / 4 / span 2 / span 1;
+
+                        @media screen and (max-width: 1199.98px) {
+                            grid-area: 2 / 2 / span 2 / span 1;
+                        }
+                    }
+
+                    &:nth-of-type(10) {
+                        grid-area: 3 / 4 / span 2 / span 1;
+
+                        @media screen and (max-width: 1199.98px) {
+                            grid-area: 6 / 2 / span 2 / span 1;
+                        }
+                    }
+
+                    &:nth-of-type(12) {
+                        grid-area: 4 / 2 / span 1 / span 2;
+
+                        @media screen and (max-width: 1199.98px) {
+                            grid-area: 8 / 1 / span 1 / span 2;
+                        }
+                    }
+                }
+            }
+
+            // categories - tab content -- outdoor
+            .outdoor-card-wrap {
+
+                .catalog-card-wrap {
+                    
+                }
+            }
+
+            // categories - tab content -- and more
+            .and-more-card-wrap {
+
+                .catalog-card-wrap {
+                    
+                    &:nth-of-type(1) {
+                        grid-area: 1 / 1 / span 2 / span 2;
+                    }
+
+                    &:nth-of-type(2) {
+                        grid-area: 1 / 3 / span 1 / span 2;
+
+                        @media screen and (max-width: 1199.98px) {
+                            grid-area: 3 / 1 / span 1 / span 2;
+                        }
+                    }
+
+                    &:nth-of-type(7) {
+                        grid-area: 3 / 3 / span 1 / span 2;
+
+                        @media screen and (max-width: 1199.98px) {
+                            grid-area: 6 / 1 / span 1 / span 2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// review
+.review-section {
+    background-color: $color-light-gray;
+
+    .review-title-wrap {
+        
+        .pc-style {
+
+            @media screen and (max-width: 1199.98px) {
+                display: none;
+            }
+        }
+
+        .mobile-style {
+            display: none;
+
+            @media screen and (max-width: 1199.98px) {
+                display: block;
+            }
+        }
+    }
+
+    .review-content-wrap {
+        @media screen and (max-width: 1199.98px) {
+            margin-top: 30px;
+        }
+    }
+}
+
+// CTA
+.cta-section {
+
+    .cta-title-wrap {
+
+        .pc-style {
+
+            @media screen and (max-width: 1199.98px) {
+                display: none;
+            }
+        }
+
+        .mobile-style {
+            display: none;
+
+            @media screen and (max-width: 1199.98px) {
+                display: block;
+            }
+        }
+    }
+}

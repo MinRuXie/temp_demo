@@ -1,0 +1,199 @@
+[
+    {
+        "name": "amazon",
+        "logo": "logo_amazon.png",
+        "url": "https://amazon.com/"
+    },{
+        "name": "ebay",
+        "logo": "logo_ebay.png",
+        "url": "https://www.ebay.com/"
+    },{
+        "name": "walmart",
+        "logo": "logo_walmart.png",
+        "url": "https://www.walmart.com/"
+    },{
+        "name": "wayfair",
+        "logo": "logo_wayfair.png",
+        "url": "https://www.wayfair.com/"
+    },{
+        "name": "overstock",
+        "logo": "logo_overstock.png",
+        "url": "https://www.overstock.com/"
+    },{
+        "name": "houzz",
+        "logo": "logo_houzz.png",
+        "url": "https://www.houzz.com/"
+    },{
+        "name": "lowes",
+        "logo": "logo_lowes.png",
+        "url": "https://www.lowes.com/"
+    },{
+        "name": "macys",
+        "logo": "logo_macys.png",
+        "url": "http://macy.com/"
+    },{
+        "name": "appliances",
+        "logo": "logo_appliances.png",
+        "url": "http://appliancesconnection.com/"
+    },{
+        "name": "apt2b",
+        "logo": "logo_apt2b.png",
+        "url": "https://www.apt2b.com/"
+    },{
+        "name": "belk",
+        "logo": "logo_belk.png",
+        "url": "https://www.belk.com/"
+    },{
+        "name": "beyondstores",
+        "logo": "logo_beyondstores.png",
+        "url": "https://www.beyondstores.com/"
+    },{
+        "name": "bjs",
+        "logo": "logo_bjs.png",
+        "url": "https://www.bjs.com/"
+    },{
+        "name": "boscovs",
+        "logo": "logo_boscovs.png",
+        "url": "https://www.boscovs.com/"
+    },{
+        "name": "brookstone",
+        "logo": "logo_brookstone.png",
+        "url": "https://www.brookstone.com/"
+    },{
+        "name": "chewy",
+        "logo": "logo_chewy.png",
+        "url": "https://www.chewy.com/"
+    },{
+        "name": "clickhere2shop",
+        "logo": "logo_clickhere2shop.png",
+        "url": "https://clickhere2shop.com/"
+    },{
+        "name": "cymax",
+        "logo": "logo_cymax.png",
+        "url": "http://cymax.com/"
+    },{
+        "name": "distributionnow",
+        "logo": "logo_distributionnow.png",
+        "url": "https://www.dnow.com/"
+    },{
+        "name": "fastfurnishings",
+        "logo": "logo_fastfurnishings.png",
+        "url": "https://www.fastfurnishings.com/"
+    },{
+        "name": "gwgoutlet",
+        "logo": "logo_gwgoutlet.png",
+        "url": "https://gwgoutlet.com/"
+    },{
+        "name": "hedgeapple",
+        "logo": "logo_hedgeapple.png",
+        "url": "https://hedgeapple.com/"
+    },{
+        "name": "kartit",
+        "logo": "logo_kartit.png",
+        "url": "https://kartit.us/"
+    },{
+        "name": "krogers",
+        "logo": "logo_krogers.png",
+        "url": "https://www.kroger.com/"
+    },{
+        "name": "lightingselection",
+        "logo": "logo_lightingselection.png",
+        "url": "https://www.lightingselection.com/"
+    },{
+        "name": "mhb",
+        "logo": "logo_mhb.png",
+        "url": "https://myhomeandbath.com/"
+    },{
+        "name": "modalyst",
+        "logo": "logo_modalyst.png",
+        "url": "https://www.modalyst.co/"
+    },{
+        "name": "modells",
+        "logo": "logo_modells.png",
+        "url": "https://www.modells.com/"
+    },{
+        "name": "morecommerce",
+        "logo": "logo_morecommerce.png",
+        "url": "http://morecommerce.com/"
+    },{
+        "name": "newegg",
+        "logo": "logo_newegg.png",
+        "url": "https://www.newegg.com/"
+    },{
+        "name": "nobhill",
+        "logo": "logo_nobhill.png",
+        "url": "https://www.nobhilloutlet.com/"
+    },{
+        "name": "ojcommerce",
+        "logo": "logo_ojcommerce.png",
+        "url": "https://www.ojcommerce.com/"
+    },{
+        "name": "peapod",
+        "logo": "logo_peapod.png",
+        "url": "http://www.peapod.com/"
+    },{
+        "name": "petco",
+        "logo": "logo_petco.png",
+        "url": "https://www.petco.com/shop/en/petcostore"
+    },{
+        "name": "ruegilt",
+        "logo": "logo_ruegilt.png",
+        "url": "https://ruegiltgroupe.com/"
+    },{
+        "name": "spreetail",
+        "logo": "logo_spreetail.png",
+        "url": "https://www.wearespreetail.com/"
+    },{
+        "name": "stackcommerce",
+        "logo": "logo_stackcommerce.png",
+        "url": "https://www.stackcommerce.com/"
+    },{
+        "name": "stop",
+        "logo": "logo_stop.png",
+        "url": "https://www.shopatstop.com/"
+    },{
+        "name": "thehomedepot",
+        "logo": "logo_thehomedepot.png",
+        "url": "https://www.homedepot.com/"
+    },{
+        "name": "touchofmodern",
+        "logo": "logo_touchofmodern.png",
+        "url": "https://www.touchofmodern.com/"
+    },{
+        "name": "tuscan",
+        "logo": "logo_tuscan.png",
+        "url": "https://www.tuscanbasins.com/"
+    },{
+        "name": "unbeatable",
+        "logo": "logo_unbeatable.png",
+        "url": "http://unbeatablesale.com/"
+    },{
+        "name": "virventures",
+        "logo": "logo_virventures.png",
+        "url": "https://virventures.com/"
+    },{
+        "name": "wearwide",
+        "logo": "logo_wearwide.png",
+        "url": "http://www.wearwide.com/"
+    },{
+        "name": "winecooler",
+        "logo": "logo_winecooler.png",
+        "url": "https://www.winecoolercollection.com/"
+    },{
+        "name": "wish",
+        "logo": "logo_wish.png",
+        "url": "http://wish.com/"
+    },{
+        "name": "yami",
+        "logo": "logo_yami.png",
+        "url": "http://yamibuy.com/"
+    },{
+        "name": "zentra",
+        "logo": "logo_zentra.png",
+        "url": "https://zentrallc.com/"
+    },{
+        "name": "zulily",
+        "logo": "logo_zulily.png",
+        "url": "https://www.zulily.com/"
+    }
+]
