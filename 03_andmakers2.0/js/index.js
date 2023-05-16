@@ -1,5 +1,5 @@
 // Get Data - partner
-fetch('../03_andmakers2.0/data/partner.json').then(function (response) {
+fetch('data/partner.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let partner_data_object = data;
@@ -15,7 +15,7 @@ fetch('../03_andmakers2.0/data/partner.json').then(function (response) {
 });
 
 // Get Data - faqs-featured
-fetch('../03_andmakers2.0/data/faqs-featured.json').then(function (response) {
+fetch('data/faqs-featured.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let faq_data_object = data;

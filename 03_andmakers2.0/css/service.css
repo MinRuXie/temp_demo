@@ -35,7 +35,7 @@
   }
 }
 .hero-section .image-pc-wrap {
-  background-image: url("/03_andmakers2.0/images/service/bg_service_hero.png");
+  background-image: url("../images/service/bg_service_hero.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -298,7 +298,7 @@
 }
 .process-section .process-slide-wrap .process-carousel-wrap::after {
   content: "";
-  background-image: url("/03_andmakers2.0/images/service/bg_service_process.png");
+  background-image: url("../images/service/bg_service_process.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;

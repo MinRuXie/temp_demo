@@ -1,5 +1,5 @@
 // Get Data - FAQs
-fetch('../03_andmakers2.0/data/faqs.json').then(function (response) {
+fetch('data/faqs.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let faq_data_object = data;

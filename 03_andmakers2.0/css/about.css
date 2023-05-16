@@ -22,7 +22,7 @@
 }
 
 .hero-section {
-  background-image: url("/03_andmakers2.0/images/about/bg_about_hero.png");
+  background-image: url("../images/about/bg_about_hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;

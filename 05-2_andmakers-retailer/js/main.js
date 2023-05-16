@@ -26,15 +26,15 @@ function preloadImg(image) {
     img.src = image;
 }
 
-fetch('../05_andmakers-retailer/data/hero.json').then(function (response) {
+fetch('data/hero.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let hero_data_object = data;
 
     // preload hero images
     for(let i=0 ; i < hero_data_object.length ; i++) {
-        preloadImg(`../05_andmakers-retailer/images/${hero_data_object[i].path}${hero_data_object[i].thumbnail}`);
-        preloadImg(`../05_andmakers-retailer/images/${hero_data_object[i].path}${hero_data_object[i].lifestyle}`);
+        preloadImg(`images/${hero_data_object[i].path}${hero_data_object[i].thumbnail}`);
+        preloadImg(`images/${hero_data_object[i].path}${hero_data_object[i].lifestyle}`);
     }
 
     var hero = new Vue({
@@ -52,7 +52,7 @@ fetch('../05_andmakers-retailer/data/hero.json').then(function (response) {
     console.warn('reviews data went wrong.', err);
 });
 
-fetch('../05_andmakers-retailer/data/categories.json').then(function (response) {
+fetch('data/categories.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let categories_data_object = data;
@@ -61,10 +61,10 @@ fetch('../05_andmakers-retailer/data/categories.json').then(function (response) 
     for(let i=0 ; i < categories_data_object.length ; i++) {
         for(let j=0 ; j < categories_data_object[i].products.length ; j++) {
             let obj = categories_data_object[i].products[j];
-            preloadImg(`../05_andmakers-retailer/images/${obj.path}${obj.thumbnail}`);
+            preloadImg(`images/${obj.path}${obj.thumbnail}`);
 
             for(let k=0 ; k < obj.lifestyles.length ; k++) {
-                preloadImg(`../05_andmakers-retailer/images/${obj.path}${obj.lifestyles[k]}`);
+                preloadImg(`images/${obj.path}${obj.lifestyles[k]}`);
             }
         }
     }
@@ -111,15 +111,15 @@ fetch('../05_andmakers-retailer/data/categories.json').then(function (response) 
     console.warn('categories data went wrong.', err);
 });
 
-fetch('../05_andmakers-retailer/data/reviews.json').then(function (response) {
+fetch('data/reviews.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let reviews_data_object = data;
 
     // preload categories modal images
     for(let i=0 ; i < reviews_data_object.length ; i++) {
-        preloadImg(`../05_andmakers-retailer/images/${reviews_data_object[i].path}${reviews_data_object[i].thumbnail}`);
-        preloadImg(`../05_andmakers-retailer/images/${reviews_data_object[i].path}${reviews_data_object[i].lifestyle}`);
+        preloadImg(`images/${reviews_data_object[i].path}${reviews_data_object[i].thumbnail}`);
+        preloadImg(`images/${reviews_data_object[i].path}${reviews_data_object[i].lifestyle}`);
     }
 
     var feedback = new Vue({

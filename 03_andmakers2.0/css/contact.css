@@ -22,7 +22,7 @@
 }
 
 .contact-section {
-  background-image: url("/03_andmakers2.0/images/contact/bg_contact_map.jpg");
+  background-image: url("../images/contact/bg_contact_map.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top center;
@@ -36,7 +36,7 @@
 }
 @media screen and (max-width: 1199.98px) {
   .contact-section .contact-upper-section {
-    background-image: url("/03_andmakers2.0/images/contact/bg_contact_map_m.jpg");
+    background-image: url("../images/contact/bg_contact_map_m.jpg");
     background-size: cover;
     padding-bottom: 30px;
     padding-top: 85%;

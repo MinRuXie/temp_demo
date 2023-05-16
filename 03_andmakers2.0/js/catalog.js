@@ -1,5 +1,5 @@
 // Get Data - catalog
-fetch('../03_andmakers2.0/data/catalog.json').then(function (response) {
+fetch('data/catalog.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let catalog_data_object = data;
@@ -64,7 +64,7 @@ fetch('../03_andmakers2.0/data/catalog.json').then(function (response) {
 });
 
 // Get Data - review
-fetch('../03_andmakers2.0/data/review.json').then(function (response) {
+fetch('data/review.json').then(function (response) {
     return response.json();
 }).then(function (data) {
     let review_data_object = data;
