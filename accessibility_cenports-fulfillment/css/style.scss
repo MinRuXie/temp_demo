@@ -360,8 +360,10 @@ button {
         content: '';
         display: block;
         margin-right: 10px;
-        width: 31px;
-        height: 20px;
+        // width: 31px;
+        // height: 20px;
+        width: 1.72rem;
+        height: 1.11rem;
         background-image: url('../images/icon/hand_drawn/icon_airplane.svg');
         background-repeat: no-repeat;
         background-size: contain;
@@ -733,7 +735,8 @@ button {
                 line-height: 1.75;
                 letter-spacing: 1px;
                 color: $color-gray;
-                padding-left: 35px;
+                // padding-left: 35px;
+                padding-left: 1.94rem;
                 position: relative;
 
                 &::before {
@@ -741,8 +744,10 @@ button {
                     position: absolute;
                     left: 0;
                     top: 4px;
-                    width: 20px;
-                    height: 24px;
+                    // width: 20px;
+                    // height: 24px;
+                    width: 1.11rem;
+                    height: 1.33rem;
 
                     @media (max-width: 991.98px){
                         width: 15px;
@@ -1303,9 +1308,12 @@ button {
         &::before {
             content: '';
             display: block;
-            width: 40px;
-            height: 40px;
-            border-radius: 100px;
+            // width: 40px;
+            // height: 40px;
+            width: 2.22rem;
+            height: 2.22rem;
+            // border-radius: 100px;
+            border-radius: 100rem;
 
             @media screen and (max-width: 991.98px) {
                 width: 20px;
