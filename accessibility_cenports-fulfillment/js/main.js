@@ -5,11 +5,12 @@ $(function(){
     let $faq_header = $('.faq-header');
     
     /* FAQ */
-    $faq_header.click(function() {
+    $faq_header.on('click', function() {
         $(this).toggleClass('active');
         $(this).siblings('.faq-body').toggleClass('active');
     });
     
+
     /* 平滑錨點 */
     $('a[href*=\\#].anchor').click(function() {
         var target = $(this.hash);

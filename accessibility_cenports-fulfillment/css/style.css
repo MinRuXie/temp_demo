@@ -943,6 +943,10 @@ button:focus {
 #testimonials .testimonials-carousel .carousel-control-prev:hover .control-wrap {
   background-color: rgba(46, 47, 107, 0.15);
 }
+#testimonials .testimonials-carousel .carousel-control-next:focus-within .control-wrap,
+#testimonials .testimonials-carousel .carousel-control-prev:focus-within .control-wrap {
+  outline: 5px solid #000;
+}
 #testimonials .testimonials-carousel .carousel-control-next .control-wrap,
 #testimonials .testimonials-carousel .carousel-control-prev .control-wrap {
   width: 56px;

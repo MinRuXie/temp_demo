@@ -1042,6 +1042,12 @@ button {
                 }
             }
 
+            &:focus-within {
+                .control-wrap {
+                    outline: 5px solid #000;
+                }
+            }
+
             .control-wrap {
                 width: 56px;
                 height: 56px;
