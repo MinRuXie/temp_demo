@@ -5,7 +5,9 @@ $(function(){
     let $faq_header = $('.faq-header');
     
     /* FAQ */
-    $faq_header.on('click', function() {
+    $faq_header.on('click keypress', function(e) {
+        if(e.type === 'keypress' && e.which !== 13) return;
+
         $(this).toggleClass('active');
         $(this).siblings('.faq-body').toggleClass('active');
     });
