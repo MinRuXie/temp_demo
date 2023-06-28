@@ -140,6 +140,21 @@ h5, .size-h5 {
   }
 }
 
+h6, .size-h6 {
+  font-size: 0.89rem;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #2e2f6b;
+  margin: 0;
+}
+@media screen and (max-width: 991.98px) {
+  h6, .size-h6 {
+    font-size: 0.83rem;
+    letter-spacing: 1px;
+  }
+}
+
 p {
   font-size: 1rem;
   line-height: 1.75;
@@ -320,14 +335,14 @@ button:focus {
 }
 
 .button-special-pink {
-  background-color: #ff007a;
+  background-color: #E7006F;
   color: #ffffff;
 }
 
 .button-special-pink:hover,
 .button-special-pink:focus,
 .button-special-pink:active {
-  background-color: #f3b11c;
+  background-color: #9D6D00;
   color: #ffffff;
 }
 
@@ -1809,19 +1824,8 @@ button:focus {
   height: 100%;
   object-fit: cover;
 }
-#get-started .address-wrap .text-wrap h6 {
-  font-size: 0.89rem;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.5px;
+#get-started .address-wrap .text-wrap .title {
   color: #2e2f6b;
-  margin: 0;
-}
-@media screen and (max-width: 991.98px) {
-  #get-started .address-wrap .text-wrap h6 {
-    font-size: 0.83rem;
-    letter-spacing: 1px;
-  }
 }
 #get-started .address-wrap .text-wrap p {
   font-size: 0.78rem;
@@ -1841,7 +1845,7 @@ footer {
   background-color: #192330;
   height: 76px;
 }
-footer h6 {
+footer .copyright {
   font-size: 0.89rem;
   line-height: 76px;
   letter-spacing: 0.5px;
@@ -1850,7 +1854,7 @@ footer h6 {
   margin: 0;
 }
 @media screen and (max-width: 374.98px) {
-  footer h6 {
+  footer .copyright {
     font-size: 0.83rem;
   }
 }

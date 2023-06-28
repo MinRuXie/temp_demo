@@ -61,7 +61,7 @@
                     <div class="mobile-wrap">
                         <div class="mobile-nav">
                             <a href="#hero" class="logo-wrap anchor" data-id="hero">
-                                <img src="images/nav_logo.svg" alt="logo">
+                                <img src="images/nav_logo.svg" alt="Cenports">
                             </a>
                             <div class="cta-wrap">
                                 <a href="#get-started" class="button button-small button-normal anchor" title="移至Contact區塊">Get Started</a>
@@ -109,13 +109,22 @@
                     <div class="offset-xl-1 col-6 col-lg-6 col-xl-5">
                         <div class="form-wrap">
                             <h2 class="title size-h5">Get Started Today with Cenports!</h2>
-                            <input type="text" placeholder="Your Name" title="Your Name" aria-label="Your Name">
-                            <input type="text" placeholder="Phone Number" title="Phone Number" aria-label="Phone Number">
-                            <input type="text" placeholder="Email" title="Email" aria-label="Email">
-                            <input type="text" placeholder="Company Name" title="Company Name" aria-label="Company Name">
+                            
+                            <label for="name1" class="sr-only">Your Name</label>
+                            <input type="text" id="name1" placeholder="Your Name" title="Your Name">
+                            
+                            <label for="tel1" class="sr-only">Phone Number</label>
+                            <input type="text" id="tel1" placeholder="Phone Number" title="Phone Number">
+
+                            <label for="email1" class="sr-only">Email</label>
+                            <input type="text" id="email1" placeholder="Email" title="Email">
+                            
+                            <label for="company1" class="sr-only">Company Name</label>
+                            <input type="text" id="company1" placeholder="Company Name" title="Company Name">
 
                             <!-- Update Dropdown Placeholder Start -->
-                            <select name="avgOrders" class="select-css" required="" title="avgOrders" aria-label="avgOrders">
+                            <label for="avg1" class="sr-only">Avg. # Of Orders Per Month (*)</label>
+                            <select id="avg1" name="avgOrders" class="select-css" required="" title="avgOrders">
                                 <option value="" disabled="" selected="">Avg. # Of Orders Per Month (*)</option>
                                 <option value="0">0, Just getting started</option>
                                 <option value="1-100">1 - 100</option>
@@ -127,7 +136,8 @@
                             <!-- Update Dropdown Placeholder End -->
 
                             <!-- Add Message Box Start -->
-                            <textarea placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business" aria-label="Tell us more about your business"></textarea>
+                            <label for="business1" class="sr-only">Tell us more about your business</label>
+                            <textarea id="business1" placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business"></textarea>
                             <!-- Add Message Box End -->
 
                             <!-- Update Submit Button Attr Start -->
@@ -697,12 +707,22 @@
                     <div class="col-12 col-xl-5 col-lg-6 col-sm-12">
                         <div class="form-wrap">
                             <h2 class="title size-h5">Get Started Today with Cenports!</h2>
-                            <input type="text" placeholder="Your Name" title="Your Name" aria-label="Your Name">
-                            <input type="text" placeholder="Phone Number" title="Phone Number" aria-label="Phone Number">
-                            <input type="text" placeholder="Email" title="Email" aria-label="Email">
-                            <input type="text" placeholder="Company Name" title="Company Name" aria-label="Company Name">
+
+                            <label for="name2" class="sr-only">Your Name</label>
+                            <input type="text" id="name2" placeholder="Your Name" title="Your Name">
+                            
+                            <label for="tel2" class="sr-only">Phone Number</label>
+                            <input type="text" id="tel2" placeholder="Phone Number" title="Phone Number">
+
+                            <label for="email2" class="sr-only">Email</label>
+                            <input type="text" id="email2" placeholder="Email" title="Email">
+                            
+                            <label for="company2" class="sr-only">Company Name</label>
+                            <input type="text" id="company2" placeholder="Company Name" title="Company Name">
+
                             <!-- Update Dropdown Placeholder Start -->
-                            <select name="avgOrders" class="select-css" required="" title="avgOrders" aria-label="avgOrders">
+                            <label for="avg2" class="sr-only">Avg. # Of Orders Per Month (*)</label>
+                            <select id="avg2" name="avgOrders" class="select-css" required="" title="avgOrders">
                                 <option value="" disabled="" selected="">Avg. # Of Orders Per Month (*)</option>
                                 <option value="0">0, Just getting started</option>
                                 <option value="1-100">1 - 100</option>
@@ -714,7 +734,8 @@
                             <!-- Update Dropdown Placeholder End -->
 
                             <!-- Add Message Box Start -->
-                            <textarea placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business" aria-label="Tell us more about your business"></textarea>
+                            <label for="business2" class="sr-only">Tell us more about your business</label>
+                            <textarea id="business2" placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business"></textarea>
                             <!-- Add Message Box End -->
 
                             <!-- Update Submit Button Attr Start -->
@@ -731,7 +752,7 @@
                                 <img src="images/mark_only_logo.svg" alt="">
                             </div>
                             <div class="text-wrap">
-                                <h6>Cenports Commerce Inc.</h6>
+                                <h2 class="title size-h6">Cenports Commerce Inc.</h2>
                                 <p>1742 Sabre Street Hayward CA 94545</p>
                                 <p>info@cenports.com</p>
                             </div>
@@ -765,7 +786,7 @@
     <!-- Add Success Modal End -->
 
     <footer>
-        <h6>© 2020 Cenports commerce inc.</h6>
+        <p class="copyright">© 2020 Cenports commerce inc.</p>
     </footer>
 
     <!-- Plugins -->

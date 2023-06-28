@@ -148,6 +148,23 @@ h5, .size-h5 {
     }
 }
 
+h6, .size-h6 {
+    // font-size: 16px;
+    font-size: 0.89rem;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: $color-blue;
+    margin: 0;
+
+    @media screen and (max-width: 991.98px) {
+        // font-size: 15px;
+        font-size: 0.83rem;
+        letter-spacing: 1px;
+    }
+}
+
+
 p {
     // font-size: 18px;
     font-size: 1rem;
@@ -332,14 +349,16 @@ button {
 }
 
 .button-special-pink {
-    background-color: $color-pink;
+    // background-color: $color-pink;
+    background-color: $color-aria-pink;
     color: $color-white;
 }
 
 .button-special-pink:hover,
 .button-special-pink:focus,
 .button-special-pink:active {
-    background-color: $color-yellow;
+    // background-color: $color-yellow;
+    background-color: $color-aria-yellow;
     color: $color-white;
 }
 
@@ -1981,20 +2000,8 @@ button {
         }
 
         .text-wrap {
-            h6 {
-                // font-size: 16px;
-                font-size: 0.89rem;
-                font-weight: bold;
-                line-height: 1;
-                letter-spacing: 0.5px;
+            .title {
                 color: $color-blue;
-                margin: 0;
-
-                @media screen and (max-width: 991.98px) {
-                    // font-size: 15px;
-                    font-size: 0.83rem;
-                    letter-spacing: 1px;
-                }
             }
 
             p {
@@ -2019,7 +2026,7 @@ footer {
     background-color: #192330;
     height: 76px;
 
-    h6 {
+    .copyright {
         // font-size: 16px;
         font-size: 0.89rem;
         line-height: 76px;
@@ -2032,7 +2039,7 @@ footer {
             // font-size: 15px;
             font-size: 0.83rem;
         }
-    }    
+    }
 }
 
 //--- Add Success Modal Start ---//
