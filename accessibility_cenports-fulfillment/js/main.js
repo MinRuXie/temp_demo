@@ -6,7 +6,8 @@ $(function(){
     
     /* FAQ */
     $faq_header.on('click keypress', function(e) {
-        if(e.type === 'keypress' && e.which !== 13) return;
+        console.log(e.key)
+        if(e.type === 'keypress' && e.key !== "Enter") return;
 
         $(this).toggleClass('active');
         $(this).siblings('.faq-body').toggleClass('active');
