@@ -1919,8 +1919,8 @@ footer .copyright {
 }
 
 .jump-content:focus {
-  background-color: #E7006F;
-  color: #ffffff;
+  background-color: #E7006F !important;
+  color: #ffffff !important;
   padding: 10px;
   position: fixed;
   top: 0;

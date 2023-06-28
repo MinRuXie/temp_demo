@@ -2123,8 +2123,8 @@ footer {
 
 
 .jump-content:focus {
-    background-color: $color-aria-pink;
-    color: $color-white;
+    background-color: $color-aria-pink !important;
+    color: $color-white !important;
     padding: 10px;
     position: fixed;
     top: 0;
