@@ -116,20 +116,20 @@
                             <h2 class="title size-h5">Get Started Today with Cenports!</h2>
                             
                             <label for="name1" class="sr-only">Your Name</label>
-                            <input type="text" id="name1" placeholder="Your Name" title="Your Name">
+                            <input type="text" id="name1" placeholder="Your Name" title="Your Name" aria-required="true">
                             
                             <label for="tel1" class="sr-only">Phone Number</label>
-                            <input type="text" id="tel1" placeholder="Phone Number" title="Phone Number">
+                            <input type="text" id="tel1" placeholder="Phone Number" title="Phone Number" aria-required="true">
 
                             <label for="email1" class="sr-only">Email</label>
-                            <input type="text" id="email1" placeholder="Email" title="Email">
+                            <input type="text" id="email1" placeholder="Email" title="Email" aria-required="true">
                             
                             <label for="company1" class="sr-only">Company Name</label>
-                            <input type="text" id="company1" placeholder="Company Name" title="Company Name">
+                            <input type="text" id="company1" placeholder="Company Name" title="Company Name" aria-required="true">
 
                             <!-- Update Dropdown Placeholder Start -->
                             <label for="avg1" class="sr-only">Avg. # Of Orders Per Month (*)</label>
-                            <select id="avg1" name="avgOrders" class="select-css" required="" title="avgOrders">
+                            <select id="avg1" name="avgOrders" class="select-css" required="" title="avgOrders" aria-required="true">
                                 <option value="" disabled="" selected="">Avg. # Of Orders Per Month (*)</option>
                                 <option value="0">0, Just getting started</option>
                                 <option value="1-100">1 - 100</option>
@@ -142,7 +142,7 @@
 
                             <!-- Add Message Box Start -->
                             <label for="business1" class="sr-only">Tell us more about your business</label>
-                            <textarea id="business1" placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business"></textarea>
+                            <textarea id="business1" placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business" aria-required="true"></textarea>
                             <!-- Add Message Box End -->
 
                             <!-- Update Submit Button Attr Start -->
@@ -586,7 +586,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q1回答">
                                     <span>Q1. Are there setup and integration fees?</span>
                                 </div>
                                 <div class="faq-body">
@@ -597,7 +597,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q2回答">
                                     <span>Q2. When will I be billed?</span>
                                 </div>
                                 <div class="faq-body">
@@ -608,7 +608,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q3回答">
                                     <span>Q3. What forms of payment do you accept?</span>
                                 </div>
                                 <div class="faq-body">
@@ -619,7 +619,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q4回答">
                                     <span>Q4. Are the fulfillment prices per piece or per order?</span>
                                 </div>
                                 <div class="faq-body">
@@ -630,7 +630,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q5回答">
                                     <span>Q5. How do you calculate storage fees?</span>
                                 </div>
                                 <div class="faq-body">
@@ -641,7 +641,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q6回答">
                                     <span>Q6. Do you handle returns?</span>
                                 </div>
                                 <div class="faq-body">
@@ -652,7 +652,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q7回答">
                                     <span>Q7. Will our products be insured if we use your warehouse?</span>
                                 </div>
                                 <div class="faq-body">
@@ -663,7 +663,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q8回答">
                                     <span>Q8. Are there any products you don’t store?</span>
                                 </div>
                                 <div class="faq-body">
@@ -674,7 +674,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q9回答">
                                     <span>Q9. How are you different than FBA?</span>
                                 </div>
                                 <div class="faq-body">
@@ -685,7 +685,7 @@
 
                         <div class="faq-wrap">
                             <div class="faq-item">
-                                <div class="faq-header" tabindex="0" role="button">
+                                <div class="faq-header" tabindex="0" role="button" title="展開Q10回答">
                                     <span>Q10. What’s included in your shipping charges?</span>
                                 </div>
                                 <div class="faq-body">
@@ -714,20 +714,20 @@
                             <h2 class="title size-h5">Get Started Today with Cenports!</h2>
 
                             <label for="name2" class="sr-only">Your Name</label>
-                            <input type="text" id="name2" placeholder="Your Name" title="Your Name">
+                            <input type="text" id="name2" placeholder="Your Name" title="Your Name" aria-required="true">
                             
                             <label for="tel2" class="sr-only">Phone Number</label>
-                            <input type="text" id="tel2" placeholder="Phone Number" title="Phone Number">
+                            <input type="text" id="tel2" placeholder="Phone Number" title="Phone Number" aria-required="true">
 
                             <label for="email2" class="sr-only">Email</label>
-                            <input type="text" id="email2" placeholder="Email" title="Email">
+                            <input type="text" id="email2" placeholder="Email" title="Email" aria-required="true">
                             
                             <label for="company2" class="sr-only">Company Name</label>
-                            <input type="text" id="company2" placeholder="Company Name" title="Company Name">
+                            <input type="text" id="company2" placeholder="Company Name" title="Company Name" aria-required="true">
 
                             <!-- Update Dropdown Placeholder Start -->
                             <label for="avg2" class="sr-only">Avg. # Of Orders Per Month (*)</label>
-                            <select id="avg2" name="avgOrders" class="select-css" required="" title="avgOrders">
+                            <select id="avg2" name="avgOrders" class="select-css" required="" title="avgOrders" aria-required="true">
                                 <option value="" disabled="" selected="">Avg. # Of Orders Per Month (*)</option>
                                 <option value="0">0, Just getting started</option>
                                 <option value="1-100">1 - 100</option>
@@ -740,7 +740,7 @@
 
                             <!-- Add Message Box Start -->
                             <label for="business2" class="sr-only">Tell us more about your business</label>
-                            <textarea id="business2" placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business"></textarea>
+                            <textarea id="business2" placeholder="Tell us more about your business" rows="2" wrap="soft" title="Tell us more about your business" aria-required="true"></textarea>
                             <!-- Add Message Box End -->
 
                             <!-- Update Submit Button Attr Start -->
