@@ -952,7 +952,7 @@ button:focus {
 }
 @media screen and (max-width: 991.98px) {
   #testimonials .testimonials-carousel .carousel-control-next,
-#testimonials .testimonials-carousel .carousel-control-prev {
+  #testimonials .testimonials-carousel .carousel-control-prev {
     position: static;
     display: inline-block;
     margin-right: 20px;
@@ -1710,13 +1710,13 @@ button:focus {
 }
 @media screen and (max-width: 991.98px) {
   #get-started .form-wrap input,
-#get-started .form-wrap textarea {
+  #get-started .form-wrap textarea {
     font-size: 0.89rem;
   }
 }
 @media screen and (max-width: 374.98px) {
   #get-started .form-wrap input,
-#get-started .form-wrap textarea {
+  #get-started .form-wrap textarea {
     font-size: 0.83rem;
     padding-left: 10px;
     padding-right: 10px;
@@ -1724,7 +1724,7 @@ button:focus {
 }
 @media screen and (max-width: 374.98px) {
   #get-started .form-wrap input::placeholder,
-#get-started .form-wrap textarea::placeholder {
+  #get-started .form-wrap textarea::placeholder {
     font-size: 0.83rem;
   }
 }
@@ -1918,10 +1918,13 @@ footer .copyright {
   }
 }
 
-.jump-content:focus {
-  background-color: #2e2f6b !important;
+.jump-content {
+  background-color: #E7006F !important;
   color: #ffffff !important;
   padding: 10px;
+}
+.jump-content:focus-visible {
+  outline: 5px solid #111112;
   position: fixed;
   top: 0;
   left: 0;

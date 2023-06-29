@@ -2122,12 +2122,16 @@ footer {
 }
 
 
-.jump-content:focus {
-    background-color: $color-blue !important;
+.jump-content {
+    background-color: $color-aria-pink !important;
     color: $color-white !important;
     padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
+    
+    &:focus-visible {
+        outline: 5px solid $color-light-black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
 }
