@@ -3,6 +3,7 @@ $(function(){
     let $ctr_btn = $('#nav #ctr-btn'); // 選單控制按鈕
     let $mobile_menu = $('#nav .mobile-menu-wrap'); // 手機版選單
     let $faq_header = $('.faq-header');
+
     
     /* FAQ */
     $faq_header.on('click keypress', function(e) {
@@ -13,6 +14,20 @@ $(function(){
         $(this).siblings('.faq-body').toggleClass('active');
     });
     
+
+    /* 控制字體大小 */
+    $('.js-font-size-btn').on('click', function(){
+        // 修改按鈕樣式
+        $('.js-font-size-btn').removeClass('active');
+        $(this).addClass('active');
+
+        // 修改頁面文字基準大小
+        let size = $(this).attr('data-size');
+        document.documentElement.style.setProperty('--custom-font-size', size);
+
+        // 修改hero區塊的margin-top
+        document.documentElement.style.setProperty('--nav-height', `${$('#nav').height()}px`);
+    });
 
     /* 平滑錨點 */
     $('a[href*=\\#].anchor').click(function() {

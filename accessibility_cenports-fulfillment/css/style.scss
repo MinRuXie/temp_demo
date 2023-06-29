@@ -5,6 +5,7 @@
 * {
     -webkit-font-smoothing: antialiased;
     font-family: $font-sans;
+    --custom-font-size: 18px;
 }
 
 // bootstrap
@@ -20,7 +21,7 @@
 }
 
 html, body {
-    font-size: 18px;
+    font-size: var(--custom-font-size);
     font-weight: normal;
     line-height: 1.75;
     letter-spacing: 1px;
@@ -196,6 +197,7 @@ textarea {
     background-color: $color-white;
     padding: 11px 15px;
     transition: 0.3s;
+    font-size: 0.89rem;
 
     &::placeholder {
         // font-size: 16px;
@@ -213,7 +215,8 @@ textarea {
 }
 
 input {
-    height: 46px;
+    // height: 46px;
+    min-height: 2.875rem;
     margin-bottom: 15px;
 
     @media (max-width: 1600px) {
@@ -222,7 +225,7 @@ input {
 }
 
 textarea {
-    min-height: 46px;
+    min-height: 2.875rem;
 }
 //--- Update Textarea Style End ---//
 
@@ -250,7 +253,10 @@ button {
         cursor: pointer;
     }
 
-    &:focus {
+    &:focus-visible {
+        outline: 5px dashed red;
+    }
+    &:focus:not(:focus-visible) {
         outline: none;
     }
 }
@@ -277,6 +283,7 @@ button {
     }
 }
 
+// button size
 .button-default {
     min-width: 180px;
     padding: 20px 25px;
@@ -314,6 +321,13 @@ button {
     }
 }
 
+.button-round {
+    padding: 8px;
+    // width: 32px;
+    // height: 32px;
+}
+
+// button color
 .button-normal {
     background-color: $color-white;
     color: $color-blue;
@@ -321,8 +335,9 @@ button {
 }
 
 .button-normal:hover,
-.button-normal:focus,
-.button-normal:active {
+.button-normal:focus:not(:focus-visible),
+.button-normal:active,
+.button-normal.active {
     background-color: $color-blue;
     color: $color-white;
 }
@@ -334,7 +349,7 @@ button {
 }
 
 .button-primary:hover,
-.button-primary:focus,
+.button-primary:focus:not(:focus-visible),
 .button-primary:active {
     background-color: $color-green;
     color: $color-purple;
@@ -355,7 +370,7 @@ button {
 }
 
 .button-special-pink:hover,
-.button-special-pink:focus,
+.button-special-pink:focus:not(:focus-visible),
 .button-special-pink:active {
     // background-color: $color-yellow;
     background-color: $color-aria-yellow;
@@ -368,7 +383,7 @@ button {
 }
 
 .button-special-yellow:hover,
-.button-special-yellow:focus,
+.button-special-yellow:focus:not(:focus-visible),
 .button-special-yellow:active {
     background-color: $color-pink;
     color: $color-white;
@@ -395,7 +410,7 @@ button {
 
     &:hover::before,
     &:active::before,
-    &:focus::before {
+    &:focus:not(:focus-visible)::before {
         background-image: url('../images/icon/hand_drawn/icon_airplane_purple.svg');
     }
 }
@@ -446,10 +461,12 @@ button {
         line-height: 1.5;
         font-family: $font-sans;
         color: $color-black;
-        padding: 11px 15px;
+        // padding: 11px 15px;
+        padding: 11px 1.5rem 11px 15px;
         width: 100%;
         max-width: 100%;
-        height: 46px;
+        // height: 46px;
+        min-height: 2.875rem;
         box-sizing: border-box;
         margin: 0 0 15px;
         border: 1px solid $color-border-gray;
@@ -546,7 +563,7 @@ button {
 
     .pc-nav {
         width: 100%;
-        height: 90px;
+        min-height: 90px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -567,10 +584,13 @@ button {
         }
 
         .menu-wrap {
-            height: 90px;
+            // min-height: 90px;
+            margin: 1rem;
             display: flex;
             align-items: center;
-            justify-content: center;
+            // justify-content: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
 
             li {
                 display: inline-block;
@@ -579,6 +599,13 @@ button {
             li + li {
                 margin-left: 30px;
             }
+        }
+
+        .btn-wrap {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
         }
     }
 
@@ -700,10 +727,13 @@ button {
 #hero {
     background-color: $color-blue;
     position: relative;
-    height: calc(100vh - 127px);
+    // height: calc(100vh - 127px);
+    height: auto;
     min-height: 720px;
-    margin-top: 127px;
-    padding: 0;
+    // margin-top: 127px;
+    margin-top: var(--nav-height, 128px);
+    // padding: 0;
+    padding: 5rem 0;
     background-image: url('../images/illustration/hero_desktop_bg.svg');
     background-position: right top;
     background-repeat: no-repeat;
@@ -729,6 +759,9 @@ button {
     }
 
     .text-wrap {
+        width: 100%;
+        word-break: break-all;
+
         .button {
             display: none;
 

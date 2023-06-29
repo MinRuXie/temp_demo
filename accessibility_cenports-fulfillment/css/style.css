@@ -2,6 +2,7 @@
 * {
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
+  --custom-font-size: 18px;
 }
 
 @media screen and (min-width: 1680px) {
@@ -17,7 +18,7 @@
 }
 
 html, body {
-  font-size: 18px;
+  font-size: var(--custom-font-size);
   font-weight: normal;
   line-height: 1.75;
   letter-spacing: 1px;
@@ -184,6 +185,7 @@ textarea {
   background-color: #ffffff;
   padding: 11px 15px;
   transition: 0.3s;
+  font-size: 0.89rem;
 }
 input::placeholder,
 textarea::placeholder {
@@ -200,7 +202,7 @@ textarea:focus {
 }
 
 input {
-  height: 46px;
+  min-height: 2.875rem;
   margin-bottom: 15px;
 }
 @media (max-width: 1600px) {
@@ -210,7 +212,7 @@ input {
 }
 
 textarea {
-  min-height: 46px;
+  min-height: 2.875rem;
 }
 
 section {
@@ -237,7 +239,10 @@ button {
 button:hover {
   cursor: pointer;
 }
-button:focus {
+button:focus-visible {
+  outline: 5px dashed red;
+}
+button:focus:not(:focus-visible) {
   outline: none;
 }
 
@@ -300,6 +305,10 @@ button:focus {
   }
 }
 
+.button-round {
+  padding: 8px;
+}
+
 .button-normal {
   background-color: #ffffff;
   color: #2e2f6b;
@@ -307,8 +316,9 @@ button:focus {
 }
 
 .button-normal:hover,
-.button-normal:focus,
-.button-normal:active {
+.button-normal:focus:not(:focus-visible),
+.button-normal:active,
+.button-normal.active {
   background-color: #2e2f6b;
   color: #ffffff;
 }
@@ -320,7 +330,7 @@ button:focus {
 }
 
 .button-primary:hover,
-.button-primary:focus,
+.button-primary:focus:not(:focus-visible),
 .button-primary:active {
   background-color: #01e4b3;
   color: #7132ff;
@@ -340,7 +350,7 @@ button:focus {
 }
 
 .button-special-pink:hover,
-.button-special-pink:focus,
+.button-special-pink:focus:not(:focus-visible),
 .button-special-pink:active {
   background-color: #9D6D00;
   color: #ffffff;
@@ -352,7 +362,7 @@ button:focus {
 }
 
 .button-special-yellow:hover,
-.button-special-yellow:focus,
+.button-special-yellow:focus:not(:focus-visible),
 .button-special-yellow:active {
   background-color: #ff007a;
   color: #ffffff;
@@ -374,7 +384,7 @@ button:focus {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.button-aircraft:hover::before, .button-aircraft:active::before, .button-aircraft:focus::before {
+.button-aircraft:hover::before, .button-aircraft:active::before, .button-aircraft:focus:not(:focus-visible)::before {
   background-image: url("../images/icon/hand_drawn/icon_airplane_purple.svg");
 }
 
@@ -417,10 +427,10 @@ button:focus {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
   color: #0e0e0e;
-  padding: 11px 15px;
+  padding: 11px 1.5rem 11px 15px;
   width: 100%;
   max-width: 100%;
-  height: 46px;
+  min-height: 2.875rem;
   box-sizing: border-box;
   margin: 0 0 15px;
   border: 1px solid #dddddd;
@@ -501,7 +511,7 @@ button:focus {
 }
 #nav .pc-nav {
   width: 100%;
-  height: 90px;
+  min-height: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -521,16 +531,23 @@ button:focus {
   object-fit: contain;
 }
 #nav .pc-nav .menu-wrap {
-  height: 90px;
+  margin: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 #nav .pc-nav .menu-wrap li {
   display: inline-block;
 }
 #nav .pc-nav .menu-wrap li + li {
   margin-left: 30px;
+}
+#nav .pc-nav .btn-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 #nav .mobile-wrap {
   display: none;
@@ -636,10 +653,10 @@ button:focus {
 #hero {
   background-color: #2e2f6b;
   position: relative;
-  height: calc(100vh - 127px);
+  height: auto;
   min-height: 720px;
-  margin-top: 127px;
-  padding: 0;
+  margin-top: var(--nav-height, 128px);
+  padding: 5rem 0;
   background-image: url("../images/illustration/hero_desktop_bg.svg");
   background-position: right top;
   background-repeat: no-repeat;
@@ -664,6 +681,10 @@ button:focus {
   #hero .form-wrap {
     display: none;
   }
+}
+#hero .text-wrap {
+  width: 100%;
+  word-break: break-all;
 }
 #hero .text-wrap .button {
   display: none;
