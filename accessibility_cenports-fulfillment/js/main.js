@@ -1,5 +1,5 @@
 $(function(){
-    let $nav_height = $('#nav').height(); // 選單高度
+    let $nav = $('#nav'); // 選單
     let $ctr_btn = $('#nav #ctr-btn'); // 選單控制按鈕
     let $mobile_menu = $('#nav .mobile-menu-wrap'); // 手機版選單
     let $faq_header = $('.faq-header');
@@ -26,14 +26,14 @@ $(function(){
         document.documentElement.style.setProperty('--custom-font-size', size);
 
         // 修改hero區塊的margin-top
-        document.documentElement.style.setProperty('--nav-height', `${$('#nav').height()}px`);
+        document.documentElement.style.setProperty('--nav-height', `${$nav.height()}px`);
     });
 
     /* 平滑錨點 */
     $('a[href*=\\#].anchor').click(function() {
         var target = $(this.hash);
         $('html, body').animate({
-            scrollTop: target.offset().top - $nav_height
+            scrollTop: target.offset().top - $nav.height()
         }, 1000);
         return false;
     });
@@ -49,7 +49,7 @@ $(function(){
         let scrolled = $(this).scrollTop(); // 目前距離頂端的高度
         for (key in sectionIds) {
             // 目前捲軸距離頂端的高度 >= 某個 section 距離頂端的高度 - menu 高度和些微的誤差
-            if (scrolled >= sectionIds[key] - $nav_height - 5) {
+            if (scrolled >= sectionIds[key] - $nav.height() - 5) {
                 let active_item = $("#nav a[data-id=" + key + "]");
                 // 檢查此區塊的 id 是否為錨點目標
                 if (active_item.length != 0) {
